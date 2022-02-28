@@ -1,0 +1,2855 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="generator" content="distill" />
+
+  <style type="text/css">
+  /* Hide doc at startup (prevent jankiness while JS renders/transforms) */
+  body {
+    visibility: hidden;
+  }
+  </style>
+
+ <!--radix_placeholder_import_source-->
+ <!--/radix_placeholder_import_source-->
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css" data-origin="pandoc">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ad0000; } /* Alert */
+code span.an { color: #5e5e5e; } /* Annotation */
+code span.at { } /* Attribute */
+code span.bn { color: #ad0000; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007ba5; } /* ControlFlow */
+code span.ch { color: #20794d; } /* Char */
+code span.cn { color: #8f5902; } /* Constant */
+code span.co { color: #5e5e5e; } /* Comment */
+code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+code span.dt { color: #ad0000; } /* DataType */
+code span.dv { color: #ad0000; } /* DecVal */
+code span.er { color: #ad0000; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #ad0000; } /* Float */
+code span.fu { color: #4758ab; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #5e5e5e; } /* Information */
+code span.kw { color: #007ba5; } /* Keyword */
+code span.op { color: #5e5e5e; } /* Operator */
+code span.ot { color: #007ba5; } /* Other */
+code span.pp { color: #ad0000; } /* Preprocessor */
+code span.sc { color: #5e5e5e; } /* SpecialChar */
+code span.ss { color: #20794d; } /* SpecialString */
+code span.st { color: #20794d; } /* String */
+code span.va { color: #111111; } /* Variable */
+code span.vs { color: #20794d; } /* VerbatimString */
+code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
+</style>
+
+
+  <!--radix_placeholder_meta_tags-->
+  <title>DDRBase: RGPD2</title>
+
+  <meta property="description" itemprop="description" content="RANBP2-like and GRIP domain-containing protein 2 (Ran-binding protein 2-like 2) (RanBP2-like 2) (RanBP2L2)"/>
+
+
+
+  <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
+  <meta property="og:title" content="DDRBase: RGPD2"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:description" content="RANBP2-like and GRIP domain-containing protein 2 (Ran-binding protein 2-like 2) (RanBP2-like 2) (RanBP2L2)"/>
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:site_name" content="DDRBase"/>
+
+  <!--  https://dev.twitter.com/cards/types/summary -->
+  <meta property="twitter:card" content="summary"/>
+  <meta property="twitter:title" content="DDRBase: RGPD2"/>
+  <meta property="twitter:description" content="RANBP2-like and GRIP domain-containing protein 2 (Ran-binding protein 2-like 2) (RanBP2-like 2) (RanBP2L2)"/>
+
+  <!--/radix_placeholder_meta_tags-->
+  <!--radix_placeholder_rmarkdown_metadata-->
+
+  <script type="text/json" id="radix-rmarkdown-metadata">
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","site"]}},"value":[{"type":"character","attributes":{},"value":["RGPD2"]},{"type":"character","attributes":{},"value":["RANBP2-like and GRIP domain-containing protein 2 (Ran-binding protein 2-like 2) (RanBP2-like 2) (RanBP2L2)\n"]},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
+  </script>
+  <!--/radix_placeholder_rmarkdown_metadata-->
+  <!--radix_placeholder_navigation_in_header-->
+  <meta name="distill:offset" content=""/>
+
+  <script type="application/javascript">
+
+    window.headroom_prevent_pin = false;
+
+    window.document.addEventListener("DOMContentLoaded", function (event) {
+
+      // initialize headroom for banner
+      var header = $('header').get(0);
+      var headerHeight = header.offsetHeight;
+      var headroom = new Headroom(header, {
+        tolerance: 5,
+        onPin : function() {
+          if (window.headroom_prevent_pin) {
+            window.headroom_prevent_pin = false;
+            headroom.unpin();
+          }
+        }
+      });
+      headroom.init();
+      if(window.location.hash)
+        headroom.unpin();
+      $(header).addClass('headroom--transition');
+
+      // offset scroll location for banner on hash change
+      // (see: https://github.com/WickyNilliams/headroom.js/issues/38)
+      window.addEventListener("hashchange", function(event) {
+        window.scrollTo(0, window.pageYOffset - (headerHeight + 25));
+      });
+
+      // responsive menu
+      $('.distill-site-header').each(function(i, val) {
+        var topnav = $(this);
+        var toggle = topnav.find('.nav-toggle');
+        toggle.on('click', function() {
+          topnav.toggleClass('responsive');
+        });
+      });
+
+      // nav dropdowns
+      $('.nav-dropbtn').click(function(e) {
+        $(this).next('.nav-dropdown-content').toggleClass('nav-dropdown-active');
+        $(this).parent().siblings('.nav-dropdown')
+           .children('.nav-dropdown-content').removeClass('nav-dropdown-active');
+      });
+      $("body").click(function(e){
+        $('.nav-dropdown-content').removeClass('nav-dropdown-active');
+      });
+      $(".nav-dropdown").click(function(e){
+        e.stopPropagation();
+      });
+    });
+  </script>
+
+  <style type="text/css">
+
+  /* Theme (user-documented overrideables for nav appearance) */
+
+  .distill-site-nav {
+    color: rgba(255, 255, 255, 0.8);
+    background-color: #0F2E3D;
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  .distill-site-nav a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .distill-site-nav a:hover {
+    color: white;
+  }
+
+  @media print {
+    .distill-site-nav {
+      display: none;
+    }
+  }
+
+  .distill-site-header {
+
+  }
+
+  .distill-site-footer {
+
+  }
+
+
+  /* Site Header */
+
+  .distill-site-header {
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 3;
+  }
+
+  .distill-site-header .nav-left {
+    display: inline-block;
+    margin-left: 8px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .distill-site-header .nav-left {
+      margin-left: 0;
+    }
+  }
+
+
+  .distill-site-header .nav-right {
+    float: right;
+    margin-right: 8px;
+  }
+
+  .distill-site-header a,
+  .distill-site-header .title {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 10px 14px 10px;
+  }
+
+  .distill-site-header .title {
+    font-size: 18px;
+    min-width: 150px;
+  }
+
+  .distill-site-header .logo {
+    padding: 0;
+  }
+
+  .distill-site-header .logo img {
+    display: none;
+    max-height: 20px;
+    width: auto;
+    margin-bottom: -4px;
+  }
+
+  .distill-site-header .nav-image img {
+    max-height: 18px;
+    width: auto;
+    display: inline-block;
+    margin-bottom: -3px;
+  }
+
+
+
+  @media screen and (min-width: 1000px) {
+    .distill-site-header .logo img {
+      display: inline-block;
+    }
+    .distill-site-header .nav-left {
+      margin-left: 20px;
+    }
+    .distill-site-header .nav-right {
+      margin-right: 20px;
+    }
+    .distill-site-header .title {
+      padding-left: 12px;
+    }
+  }
+
+
+  .distill-site-header .nav-toggle {
+    display: none;
+  }
+
+  .nav-dropdown {
+    display: inline-block;
+    position: relative;
+  }
+
+  .nav-dropdown .nav-dropbtn {
+    border: none;
+    outline: none;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 16px 10px;
+    background-color: transparent;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    margin: 0;
+    margin-top: 1px;
+    z-index: 2;
+  }
+
+  .nav-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 4px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+    z-index: 1;
+    margin-top: 2px;
+    white-space: nowrap;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+
+  .nav-dropdown-content hr {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-dropdown-active {
+    display: block;
+  }
+
+  .nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header {
+    color: black;
+    padding: 6px 24px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .nav-dropdown-content .nav-dropdown-header {
+    display: block;
+    padding: 5px 24px;
+    padding-bottom: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #999999;
+    white-space: nowrap;
+  }
+
+  .nav-dropdown:hover .nav-dropbtn {
+    color: white;
+  }
+
+  .nav-dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .nav-right .nav-dropdown-content {
+    margin-left: -45%;
+    right: 0;
+  }
+
+  @media screen and (max-width: 768px) {
+    .distill-site-header a, .distill-site-header .nav-dropdown  {display: none;}
+    .distill-site-header a.nav-toggle {
+      float: right;
+      display: block;
+    }
+    .distill-site-header .title {
+      margin-left: 0;
+    }
+    .distill-site-header .nav-right {
+      margin-right: 0;
+    }
+    .distill-site-header {
+      overflow: hidden;
+    }
+    .nav-right .nav-dropdown-content {
+      margin-left: 0;
+    }
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .distill-site-header.responsive {position: relative; min-height: 500px; }
+    .distill-site-header.responsive a.nav-toggle {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .distill-site-header.responsive a,
+    .distill-site-header.responsive .nav-dropdown {
+      display: block;
+      text-align: left;
+    }
+    .distill-site-header.responsive .nav-left,
+    .distill-site-header.responsive .nav-right {
+      width: 100%;
+    }
+    .distill-site-header.responsive .nav-dropdown {float: none;}
+    .distill-site-header.responsive .nav-dropdown-content {position: relative;}
+    .distill-site-header.responsive .nav-dropdown .nav-dropbtn {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+
+  /* Site Footer */
+
+  .distill-site-footer {
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    z-index: 3;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+
+  /* Headroom */
+
+  d-title {
+    padding-top: 6rem;
+  }
+
+  @media print {
+    d-title {
+      padding-top: 4rem;
+    }
+  }
+
+  .headroom {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .headroom--transition {
+    transition: all .4s ease-in-out;
+  }
+
+  .headroom--unpinned {
+    top: -100px;
+  }
+
+  .headroom--pinned {
+    top: 0;
+  }
+
+  /* adjust viewport for navbar height */
+  /* helps vertically center bootstrap (non-distill) content */
+  .min-vh-100 {
+    min-height: calc(100vh - 100px) !important;
+  }
+
+  </style>
+
+  <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
+  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
+  <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
+  <script src="site_libs/autocomplete-0.37.1/autocomplete.min.js"></script>
+  <script src="site_libs/fuse-6.4.1/fuse.min.js"></script>
+
+  <script type="application/javascript">
+
+  function getMeta(metaName) {
+    var metas = document.getElementsByTagName('meta');
+    for (let i = 0; i < metas.length; i++) {
+      if (metas[i].getAttribute('name') === metaName) {
+        return metas[i].getAttribute('content');
+      }
+    }
+    return '';
+  }
+
+  function offsetURL(url) {
+    var offset = getMeta('distill:offset');
+    return offset ? offset + '/' + url : url;
+  }
+
+  function createFuseIndex() {
+
+    // create fuse index
+    var options = {
+      keys: [
+        { name: 'title', weight: 20 },
+        { name: 'categories', weight: 15 },
+        { name: 'description', weight: 10 },
+        { name: 'contents', weight: 5 },
+      ],
+      ignoreLocation: true,
+      threshold: 0
+    };
+    var fuse = new window.Fuse([], options);
+
+    // fetch the main search.json
+    return fetch(offsetURL('search.json'))
+      .then(function(response) {
+        if (response.status == 200) {
+          return response.json().then(function(json) {
+            // index main articles
+            json.articles.forEach(function(article) {
+              fuse.add(article);
+            });
+            // download collections and index their articles
+            return Promise.all(json.collections.map(function(collection) {
+              return fetch(offsetURL(collection)).then(function(response) {
+                if (response.status === 200) {
+                  return response.json().then(function(articles) {
+                    articles.forEach(function(article) {
+                      fuse.add(article);
+                    });
+                  })
+                } else {
+                  return Promise.reject(
+                    new Error('Unexpected status from search index request: ' +
+                              response.status)
+                  );
+                }
+              });
+            })).then(function() {
+              return fuse;
+            });
+          });
+
+        } else {
+          return Promise.reject(
+            new Error('Unexpected status from search index request: ' +
+                        response.status)
+          );
+        }
+      });
+  }
+
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+
+    // get search element (bail if we don't have one)
+    var searchEl = window.document.getElementById('distill-search');
+    if (!searchEl)
+      return;
+
+    createFuseIndex()
+      .then(function(fuse) {
+
+        // make search box visible
+        searchEl.classList.remove('hidden');
+
+        // initialize autocomplete
+        var options = {
+          autoselect: true,
+          hint: false,
+          minLength: 2,
+        };
+        window.autocomplete(searchEl, options, [{
+          source: function(query, callback) {
+            const searchOptions = {
+              isCaseSensitive: false,
+              shouldSort: true,
+              minMatchCharLength: 2,
+              limit: 10,
+            };
+            var results = fuse.search(query, searchOptions);
+            callback(results
+              .map(function(result) { return result.item; })
+            );
+          },
+          templates: {
+            suggestion: function(suggestion) {
+              var img = suggestion.preview && Object.keys(suggestion.preview).length > 0
+                ? `<img src="${offsetURL(suggestion.preview)}"</img>`
+                : '';
+              var html = `
+                <div class="search-item">
+                  <h3>${suggestion.title}</h3>
+                  <div class="search-item-description">
+                    ${suggestion.description || ''}
+                  </div>
+                  <div class="search-item-preview">
+                    ${img}
+                  </div>
+                </div>
+              `;
+              return html;
+            }
+          }
+        }]).on('autocomplete:selected', function(event, suggestion) {
+          window.location.href = offsetURL(suggestion.path);
+        });
+        // remove inline display style on autocompleter (we want to
+        // manage responsive display via css)
+        $('.algolia-autocomplete').css("display", "");
+      })
+      .catch(function(error) {
+        console.log(error);
+      });
+
+  });
+
+  </script>
+
+  <style type="text/css">
+
+  .nav-search {
+    font-size: x-small;
+  }
+
+  /* Algolioa Autocomplete */
+
+  .algolia-autocomplete {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: sub;
+    background-color: white;
+    color: black;
+    padding: 6px;
+    padding-top: 8px;
+    padding-bottom: 0;
+    border-radius: 6px;
+    border: 1px #0F2E3D solid;
+    width: 180px;
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .distill-site-nav .algolia-autocomplete {
+      display: none;
+      visibility: hidden;
+    }
+    .distill-site-nav.responsive .algolia-autocomplete {
+      display: inline-block;
+      visibility: visible;
+    }
+    .distill-site-nav.responsive .algolia-autocomplete .aa-dropdown-menu {
+      margin-left: 0;
+      width: 400px;
+      max-height: 400px;
+    }
+  }
+
+  .algolia-autocomplete .aa-input, .algolia-autocomplete .aa-hint {
+    width: 90%;
+    outline: none;
+    border: none;
+  }
+
+  .algolia-autocomplete .aa-hint {
+    color: #999;
+  }
+  .algolia-autocomplete .aa-dropdown-menu {
+    width: 550px;
+    max-height: 70vh;
+    overflow-x: visible;
+    overflow-y: scroll;
+    padding: 5px;
+    margin-top: 3px;
+    margin-left: -150px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #999;
+    border-top: none;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion {
+    cursor: pointer;
+    padding: 5px 4px;
+    border-bottom: 1px solid #eee;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion:last-of-type {
+    border-bottom: none;
+    margin-bottom: 2px;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item {
+    overflow: hidden;
+    font-size: 0.8em;
+    line-height: 1.4em;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item h3 {
+    font-size: 1rem;
+    margin-block-start: 0;
+    margin-block-end: 5px;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-description {
+    display: inline-block;
+    overflow: hidden;
+    height: 2.8em;
+    width: 80%;
+    margin-right: 4%;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview {
+    display: inline-block;
+    width: 15%;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img {
+    height: 3em;
+    width: auto;
+    display: none;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img[src] {
+    display: initial;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion.aa-cursor {
+    background-color: #eee;
+  }
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion em {
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  </style>
+
+
+  <!--/radix_placeholder_navigation_in_header-->
+  <!--radix_placeholder_distill-->
+
+  <style type="text/css">
+
+  body {
+    background-color: white;
+  }
+
+  .pandoc-table {
+    width: 100%;
+  }
+
+  .pandoc-table>caption {
+    margin-bottom: 10px;
+  }
+
+  .pandoc-table th:not([align]) {
+    text-align: left;
+  }
+
+  .pagedtable-footer {
+    font-size: 15px;
+  }
+
+  d-byline .byline {
+    grid-template-columns: 2fr 2fr;
+  }
+
+  d-byline .byline h3 {
+    margin-block-start: 1.5em;
+  }
+
+  d-byline .byline .authors-affiliations h3 {
+    margin-block-start: 0.5em;
+  }
+
+  .authors-affiliations .orcid-id {
+    width: 16px;
+    height:16px;
+    margin-left: 4px;
+    margin-right: 4px;
+    vertical-align: middle;
+    padding-bottom: 2px;
+  }
+
+  d-title .dt-tags {
+    margin-top: 1em;
+    grid-column: text;
+  }
+
+  .dt-tags .dt-tag {
+    text-decoration: none;
+    display: inline-block;
+    color: rgba(0,0,0,0.6);
+    padding: 0em 0.4em;
+    margin-right: 0.5em;
+    margin-bottom: 0.4em;
+    font-size: 70%;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  d-article table.gt_table td,
+  d-article table.gt_table th {
+    border-bottom: none;
+  }
+
+  .html-widget {
+    margin-bottom: 2.0em;
+  }
+
+  .l-screen-inset {
+    padding-right: 16px;
+  }
+
+  .l-screen .caption {
+    margin-left: 10px;
+  }
+
+  .shaded {
+    background: rgb(247, 247, 247);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .shaded .html-widget {
+    margin-bottom: 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .shaded .shaded-content {
+    background: white;
+  }
+
+  .text-output {
+    margin-top: 0;
+    line-height: 1.5em;
+  }
+
+  .hidden {
+    display: none !important;
+  }
+
+  d-article {
+    padding-top: 2.5rem;
+    padding-bottom: 30px;
+  }
+
+  d-appendix {
+    padding-top: 30px;
+  }
+
+  d-article>p>img {
+    width: 100%;
+  }
+
+  d-article h2 {
+    margin: 1rem 0 1.5rem 0;
+  }
+
+  d-article h3 {
+    margin-top: 1.5rem;
+  }
+
+  d-article iframe {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 2.0em;
+    width: 100%;
+  }
+
+  /* Tweak code blocks */
+
+  d-article div.sourceCode code,
+  d-article pre code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  }
+
+  d-article pre,
+  d-article div.sourceCode,
+  d-article div.sourceCode pre {
+    overflow: auto;
+  }
+
+  d-article div.sourceCode {
+    background-color: white;
+  }
+
+  d-article div.sourceCode pre {
+    padding-left: 10px;
+    font-size: 12px;
+    border-left: 2px solid rgba(0,0,0,0.1);
+  }
+
+  d-article pre {
+    font-size: 12px;
+    color: black;
+    background: none;
+    margin-top: 0;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  }
+
+  d-article pre a {
+    border-bottom: none;
+  }
+
+  d-article pre a:hover {
+    border-bottom: none;
+    text-decoration: underline;
+  }
+
+  d-article details {
+    grid-column: text;
+    margin-bottom: 0.8em;
+  }
+
+  @media(min-width: 768px) {
+
+  d-article pre,
+  d-article div.sourceCode,
+  d-article div.sourceCode pre {
+    overflow: visible !important;
+  }
+
+  d-article div.sourceCode pre {
+    padding-left: 18px;
+    font-size: 14px;
+  }
+
+  d-article pre {
+    font-size: 14px;
+  }
+
+  }
+
+  figure img.external {
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    padding: 18px;
+    box-sizing: border-box;
+  }
+
+  /* CSS for d-contents */
+
+  .d-contents {
+    grid-column: text;
+    color: rgba(0,0,0,0.8);
+    font-size: 0.9em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+    padding-left: 0.25em;
+    justify-self: start;
+  }
+
+  @media(min-width: 1000px) {
+    .d-contents.d-contents-float {
+      height: 0;
+      grid-column-start: 1;
+      grid-column-end: 4;
+      justify-self: center;
+      padding-right: 3em;
+      padding-left: 2em;
+    }
+  }
+
+  .d-contents nav h3 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+
+  .d-contents li {
+    list-style-type: none
+  }
+
+  .d-contents nav > ul {
+    padding-left: 0;
+  }
+
+  .d-contents ul {
+    padding-left: 1em
+  }
+
+  .d-contents nav ul li {
+    margin-top: 0.6em;
+    margin-bottom: 0.2em;
+  }
+
+  .d-contents nav a {
+    font-size: 13px;
+    border-bottom: none;
+    text-decoration: none
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  .d-contents nav a:hover {
+    text-decoration: underline solid rgba(0, 0, 0, 0.6)
+  }
+
+  .d-contents nav > ul > li > a {
+    font-weight: 600;
+  }
+
+  .d-contents nav > ul > li > ul {
+    font-weight: inherit;
+  }
+
+  .d-contents nav > ul > li > ul > li {
+    margin-top: 0.2em;
+  }
+
+
+  .d-contents nav ul {
+    margin-top: 0;
+    margin-bottom: 0.25em;
+  }
+
+  .d-article-with-toc h2:nth-child(2) {
+    margin-top: 0;
+  }
+
+
+  /* Figure */
+
+  .figure {
+    position: relative;
+    margin-bottom: 2.5em;
+    margin-top: 1.5em;
+  }
+
+  .figure img {
+    width: 100%;
+  }
+
+  .figure .caption {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 12px;
+    line-height: 1.5em;
+  }
+
+  .figure img.external {
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    padding: 18px;
+    box-sizing: border-box;
+  }
+
+  .figure .caption a {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  .figure .caption b,
+  .figure .caption strong, {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1.0);
+  }
+
+  /* Citations */
+
+  d-article .citation {
+    color: inherit;
+    cursor: inherit;
+  }
+
+  div.hanging-indent{
+    margin-left: 1em; text-indent: -1em;
+  }
+
+  /* Citation hover box */
+
+  .tippy-box[data-theme~=light-border] {
+    background-color: rgba(250, 250, 250, 0.95);
+  }
+
+  .tippy-content > p {
+    margin-bottom: 0;
+    padding: 2px;
+  }
+
+
+  /* Tweak 1000px media break to show more text */
+
+  @media(min-width: 1000px) {
+    .base-grid,
+    distill-header,
+    d-title,
+    d-abstract,
+    d-article,
+    d-appendix,
+    distill-appendix,
+    d-byline,
+    d-footnote-list,
+    d-citation-list,
+    distill-footer {
+      grid-template-columns: [screen-start] 1fr [page-start kicker-start] 80px [middle-start] 50px [text-start kicker-end] 65px 65px 65px 65px 65px 65px 65px 65px [text-end gutter-start] 65px [middle-end] 65px [page-end gutter-end] 1fr [screen-end];
+      grid-column-gap: 16px;
+    }
+
+    .grid {
+      grid-column-gap: 16px;
+    }
+
+    d-article {
+      font-size: 1.06rem;
+      line-height: 1.7em;
+    }
+    figure .caption, .figure .caption, figure figcaption {
+      font-size: 13px;
+    }
+  }
+
+  @media(min-width: 1180px) {
+    .base-grid,
+    distill-header,
+    d-title,
+    d-abstract,
+    d-article,
+    d-appendix,
+    distill-appendix,
+    d-byline,
+    d-footnote-list,
+    d-citation-list,
+    distill-footer {
+      grid-template-columns: [screen-start] 1fr [page-start kicker-start] 60px [middle-start] 60px [text-start kicker-end] 60px 60px 60px 60px 60px 60px 60px 60px [text-end gutter-start] 60px [middle-end] 60px [page-end gutter-end] 1fr [screen-end];
+      grid-column-gap: 32px;
+    }
+
+    .grid {
+      grid-column-gap: 32px;
+    }
+  }
+
+
+  /* Get the citation styles for the appendix (not auto-injected on render since
+     we do our own rendering of the citation appendix) */
+
+  d-appendix .citation-appendix,
+  .d-appendix .citation-appendix {
+    font-size: 11px;
+    line-height: 15px;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    padding-left: 18px;
+    border: 1px solid rgba(0,0,0,0.1);
+    background: rgba(0, 0, 0, 0.02);
+    padding: 10px 18px;
+    border-radius: 3px;
+    color: rgba(150, 150, 150, 1);
+    overflow: hidden;
+    margin-top: -12px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  /* Include appendix styles here so they can be overridden */
+
+  d-appendix {
+    contain: layout style;
+    font-size: 0.8em;
+    line-height: 1.7em;
+    margin-top: 60px;
+    margin-bottom: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    color: rgba(0,0,0,0.5);
+    padding-top: 60px;
+    padding-bottom: 48px;
+  }
+
+  d-appendix h3 {
+    grid-column: page-start / text-start;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 1em;
+    margin-bottom: 0;
+    color: rgba(0,0,0,0.65);
+  }
+
+  d-appendix h3 + * {
+    margin-top: 1em;
+  }
+
+  d-appendix ol {
+    padding: 0 0 0 15px;
+  }
+
+  @media (min-width: 768px) {
+    d-appendix ol {
+      padding: 0 0 0 30px;
+      margin-left: -30px;
+    }
+  }
+
+  d-appendix li {
+    margin-bottom: 1em;
+  }
+
+  d-appendix a {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  d-appendix > * {
+    grid-column: text;
+  }
+
+  d-appendix > d-footnote-list,
+  d-appendix > d-citation-list,
+  d-appendix > distill-appendix {
+    grid-column: screen;
+  }
+
+  /* Include footnote styles here so they can be overridden */
+
+  d-footnote-list {
+    contain: layout style;
+  }
+
+  d-footnote-list > * {
+    grid-column: text;
+  }
+
+  d-footnote-list a.footnote-backlink {
+    color: rgba(0,0,0,0.3);
+    padding-left: 0.5em;
+  }
+
+
+
+  /* Anchor.js */
+
+  .anchorjs-link {
+    /*transition: all .25s linear; */
+    text-decoration: none;
+    border-bottom: none;
+  }
+  *:hover > .anchorjs-link {
+    margin-left: -1.125em !important;
+    text-decoration: none;
+    border-bottom: none;
+  }
+
+  /* Social footer */
+
+  .social_footer {
+    margin-top: 30px;
+    margin-bottom: 0;
+    color: rgba(0,0,0,0.67);
+  }
+
+  .disqus-comments {
+    margin-right: 30px;
+  }
+
+  .disqus-comment-count {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+  }
+
+  #disqus_thread {
+    margin-top: 30px;
+  }
+
+  .article-sharing a {
+    border-bottom: none;
+    margin-right: 8px;
+  }
+
+  .article-sharing a:hover {
+    border-bottom: none;
+  }
+
+  .sidebar-section.subscribe {
+    font-size: 12px;
+    line-height: 1.6em;
+  }
+
+  .subscribe p {
+    margin-bottom: 0.5em;
+  }
+
+
+  .article-footer .subscribe {
+    font-size: 15px;
+    margin-top: 45px;
+  }
+
+
+  .sidebar-section.custom {
+    font-size: 12px;
+    line-height: 1.6em;
+  }
+
+  .custom p {
+    margin-bottom: 0.5em;
+  }
+
+  /* Styles for listing layout (hide title) */
+  .layout-listing d-title, .layout-listing .d-title {
+    display: none;
+  }
+
+  /* Styles for posts lists (not auto-injected) */
+
+
+  .posts-with-sidebar {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  .posts-list .description h2,
+  .posts-list .description p {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  }
+
+  .posts-list .description h2 {
+    font-weight: 700;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .posts-list h2.post-tag {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 12px;
+  }
+  .posts-list {
+    margin-top: 60px;
+    margin-bottom: 24px;
+  }
+
+  .posts-list .post-preview {
+    text-decoration: none;
+    overflow: hidden;
+    display: block;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 24px 0;
+  }
+
+  .post-preview-last {
+    border-bottom: none !important;
+  }
+
+  .posts-list .posts-list-caption {
+    grid-column: screen;
+    font-weight: 400;
+  }
+
+  .posts-list .post-preview h2 {
+    margin: 0 0 6px 0;
+    line-height: 1.2em;
+    font-style: normal;
+    font-size: 24px;
+  }
+
+  .posts-list .post-preview p {
+    margin: 0 0 12px 0;
+    line-height: 1.4em;
+    font-size: 16px;
+  }
+
+  .posts-list .post-preview .thumbnail {
+    box-sizing: border-box;
+    margin-bottom: 24px;
+    position: relative;
+    max-width: 500px;
+  }
+  .posts-list .post-preview img {
+    width: 100%;
+    display: block;
+  }
+
+  .posts-list .metadata {
+    font-size: 12px;
+    line-height: 1.4em;
+    margin-bottom: 18px;
+  }
+
+  .posts-list .metadata > * {
+    display: inline-block;
+  }
+
+  .posts-list .metadata .publishedDate {
+    margin-right: 2em;
+  }
+
+  .posts-list .metadata .dt-authors {
+    display: block;
+    margin-top: 0.3em;
+    margin-right: 2em;
+  }
+
+  .posts-list .dt-tags {
+    display: block;
+    line-height: 1em;
+  }
+
+  .posts-list .dt-tags .dt-tag {
+    display: inline-block;
+    color: rgba(0,0,0,0.6);
+    padding: 0.3em 0.4em;
+    margin-right: 0.2em;
+    margin-bottom: 0.4em;
+    font-size: 60%;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  .posts-list img {
+    opacity: 1;
+  }
+
+  .posts-list img[data-src] {
+    opacity: 0;
+  }
+
+  .posts-more {
+    clear: both;
+  }
+
+
+  .posts-sidebar {
+    font-size: 16px;
+  }
+
+  .posts-sidebar h3 {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  .sidebar-section {
+    margin-bottom: 30px;
+  }
+
+  .categories ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .categories li {
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 0;
+  }
+
+  .categories li>a {
+    border-bottom: none;
+  }
+
+  .categories li>a:hover {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  }
+
+  .categories .active {
+    font-weight: 600;
+  }
+
+  .categories .category-count {
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+
+  @media(min-width: 768px) {
+    .posts-list .post-preview h2 {
+      font-size: 26px;
+    }
+    .posts-list .post-preview .thumbnail {
+      float: right;
+      width: 30%;
+      margin-bottom: 0;
+    }
+    .posts-list .post-preview .description {
+      float: left;
+      width: 45%;
+    }
+    .posts-list .post-preview .metadata {
+      float: left;
+      width: 20%;
+      margin-top: 8px;
+    }
+    .posts-list .post-preview p {
+      margin: 0 0 12px 0;
+      line-height: 1.5em;
+      font-size: 16px;
+    }
+    .posts-with-sidebar .posts-list {
+      float: left;
+      width: 75%;
+    }
+    .posts-with-sidebar .posts-sidebar {
+      float: right;
+      width: 20%;
+      margin-top: 60px;
+      padding-top: 24px;
+      padding-bottom: 24px;
+    }
+  }
+
+
+  /* Improve display for browsers without grid (IE/Edge <= 15) */
+
+  .downlevel {
+    line-height: 1.6em;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+  }
+
+  .downlevel .d-title {
+    padding-top: 6rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .downlevel .d-title h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.1em;
+    margin: 0 0 0.5rem;
+  }
+
+  .downlevel .d-title p {
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.55em;
+    margin-top: 0;
+  }
+
+  .downlevel .d-byline {
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    font-size: 0.8rem;
+    line-height: 1.8em;
+  }
+
+  .downlevel .section-separator {
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .downlevel .d-article {
+    font-size: 1.06rem;
+    line-height: 1.7em;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+
+
+  .downlevel .d-appendix {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: none;
+    font-size: 0.8em;
+    line-height: 1.7em;
+    margin-bottom: 0;
+    color: rgba(0,0,0,0.5);
+    padding-top: 40px;
+    padding-bottom: 48px;
+  }
+
+  .downlevel .footnotes ol {
+    padding-left: 13px;
+  }
+
+  .downlevel .base-grid,
+  .downlevel .distill-header,
+  .downlevel .d-title,
+  .downlevel .d-abstract,
+  .downlevel .d-article,
+  .downlevel .d-appendix,
+  .downlevel .distill-appendix,
+  .downlevel .d-byline,
+  .downlevel .d-footnote-list,
+  .downlevel .d-citation-list,
+  .downlevel .distill-footer,
+  .downlevel .appendix-bottom,
+  .downlevel .posts-container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  @media(min-width: 768px) {
+    .downlevel .base-grid,
+    .downlevel .distill-header,
+    .downlevel .d-title,
+    .downlevel .d-abstract,
+    .downlevel .d-article,
+    .downlevel .d-appendix,
+    .downlevel .distill-appendix,
+    .downlevel .d-byline,
+    .downlevel .d-footnote-list,
+    .downlevel .d-citation-list,
+    .downlevel .distill-footer,
+    .downlevel .appendix-bottom,
+    .downlevel .posts-container {
+    padding-left: 150px;
+    padding-right: 150px;
+    max-width: 900px;
+  }
+  }
+
+  .downlevel pre code {
+    display: block;
+    border-left: 2px solid rgba(0, 0, 0, .1);
+    padding: 0 0 0 20px;
+    font-size: 14px;
+  }
+
+  .downlevel code, .downlevel pre {
+    color: black;
+    background: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  }
+
+  .downlevel .posts-list .post-preview {
+    color: inherit;
+  }
+
+
+
+  </style>
+
+  <script type="application/javascript">
+
+  function is_downlevel_browser() {
+    if (bowser.isUnsupportedBrowser({ msie: "12", msedge: "16"},
+                                   window.navigator.userAgent)) {
+      return true;
+    } else {
+      return window.load_distill_framework === undefined;
+    }
+  }
+
+  // show body when load is complete
+  function on_load_complete() {
+
+    // add anchors
+    if (window.anchors) {
+      window.anchors.options.placement = 'left';
+      window.anchors.add('d-article > h2, d-article > h3, d-article > h4, d-article > h5');
+    }
+
+
+    // set body to visible
+    document.body.style.visibility = 'visible';
+
+    // force redraw for leaflet widgets
+    if (window.HTMLWidgets) {
+      var maps = window.HTMLWidgets.findAll(".leaflet");
+      $.each(maps, function(i, el) {
+        var map = this.getMap();
+        map.invalidateSize();
+        map.eachLayer(function(layer) {
+          if (layer instanceof L.TileLayer)
+            layer.redraw();
+        });
+      });
+    }
+
+    // trigger 'shown' so htmlwidgets resize
+    $('d-article').trigger('shown');
+  }
+
+  function init_distill() {
+
+    init_common();
+
+    // create front matter
+    var front_matter = $('<d-front-matter></d-front-matter>');
+    $('#distill-front-matter').wrap(front_matter);
+
+    // create d-title
+    $('.d-title').changeElementType('d-title');
+
+    // create d-byline
+    var byline = $('<d-byline></d-byline>');
+    $('.d-byline').replaceWith(byline);
+
+    // create d-article
+    var article = $('<d-article></d-article>');
+    $('.d-article').wrap(article).children().unwrap();
+
+    // move posts container into article
+    $('.posts-container').appendTo($('d-article'));
+
+    // create d-appendix
+    $('.d-appendix').changeElementType('d-appendix');
+
+    // flag indicating that we have appendix items
+    var appendix = $('.appendix-bottom').children('h3').length > 0;
+
+    // replace footnotes with <d-footnote>
+    $('.footnote-ref').each(function(i, val) {
+      appendix = true;
+      var href = $(this).attr('href');
+      var id = href.replace('#', '');
+      var fn = $('#' + id);
+      var fn_p = $('#' + id + '>p');
+      fn_p.find('.footnote-back').remove();
+      var text = fn_p.html();
+      var dtfn = $('<d-footnote></d-footnote>');
+      dtfn.html(text);
+      $(this).replaceWith(dtfn);
+    });
+    // remove footnotes
+    $('.footnotes').remove();
+
+    // move refs into #references-listing
+    $('#references-listing').replaceWith($('#refs'));
+
+    $('h1.appendix, h2.appendix').each(function(i, val) {
+      $(this).changeElementType('h3');
+    });
+    $('h3.appendix').each(function(i, val) {
+      var id = $(this).attr('id');
+      $('.d-contents a[href="#' + id + '"]').parent().remove();
+      appendix = true;
+      $(this).nextUntil($('h1, h2, h3')).addBack().appendTo($('d-appendix'));
+    });
+
+    // show d-appendix if we have appendix content
+    $("d-appendix").css('display', appendix ? 'grid' : 'none');
+
+    // localize layout chunks to just output
+    $('.layout-chunk').each(function(i, val) {
+
+      // capture layout
+      var layout = $(this).attr('data-layout');
+
+      // apply layout to markdown level block elements
+      var elements = $(this).children().not('details, div.sourceCode, pre, script');
+      elements.each(function(i, el) {
+        var layout_div = $('<div class="' + layout + '"></div>');
+        if (layout_div.hasClass('shaded')) {
+          var shaded_content = $('<div class="shaded-content"></div>');
+          $(this).wrap(shaded_content);
+          $(this).parent().wrap(layout_div);
+        } else {
+          $(this).wrap(layout_div);
+        }
+      });
+
+
+      // unwrap the layout-chunk div
+      $(this).children().unwrap();
+    });
+
+    // remove code block used to force  highlighting css
+    $('.distill-force-highlighting-css').parent().remove();
+
+    // remove empty line numbers inserted by pandoc when using a
+    // custom syntax highlighting theme
+    $('code.sourceCode a:empty').remove();
+
+    // load distill framework
+    load_distill_framework();
+
+    // wait for window.distillRunlevel == 4 to do post processing
+    function distill_post_process() {
+
+      if (!window.distillRunlevel || window.distillRunlevel < 4)
+        return;
+
+      // hide author/affiliations entirely if we have no authors
+      var front_matter = JSON.parse($("#distill-front-matter").html());
+      var have_authors = front_matter.authors && front_matter.authors.length > 0;
+      if (!have_authors)
+        $('d-byline').addClass('hidden');
+
+      // article with toc class
+      $('.d-contents').parent().addClass('d-article-with-toc');
+
+      // strip links that point to #
+      $('.authors-affiliations').find('a[href="#"]').removeAttr('href');
+
+      // add orcid ids
+      $('.authors-affiliations').find('.author').each(function(i, el) {
+        var orcid_id = front_matter.authors[i].orcidID;
+        if (orcid_id) {
+          var a = $('<a></a>');
+          a.attr('href', 'https://orcid.org/' + orcid_id);
+          var img = $('<img></img>');
+          img.addClass('orcid-id');
+          img.attr('alt', 'ORCID ID');
+          img.attr('src','data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==');
+          a.append(img);
+          $(this).append(a);
+        }
+      });
+
+      // hide elements of author/affiliations grid that have no value
+      function hide_byline_column(caption) {
+        $('d-byline').find('h3:contains("' + caption + '")').parent().css('visibility', 'hidden');
+      }
+
+      // affiliations
+      var have_affiliations = false;
+      for (var i = 0; i<front_matter.authors.length; ++i) {
+        var author = front_matter.authors[i];
+        if (author.affiliation !== "&nbsp;") {
+          have_affiliations = true;
+          break;
+        }
+      }
+      if (!have_affiliations)
+        $('d-byline').find('h3:contains("Affiliations")').css('visibility', 'hidden');
+
+      // published date
+      if (!front_matter.publishedDate)
+        hide_byline_column("Published");
+
+      // document object identifier
+      var doi = $('d-byline').find('h3:contains("DOI")');
+      var doi_p = doi.next().empty();
+      if (!front_matter.doi) {
+        // if we have a citation and valid citationText then link to that
+        if ($('#citation').length > 0 && front_matter.citationText) {
+          doi.html('Citation');
+          $('<a href="#citation"></a>')
+            .text(front_matter.citationText)
+            .appendTo(doi_p);
+        } else {
+          hide_byline_column("DOI");
+        }
+      } else {
+        $('<a></a>')
+           .attr('href', "https://doi.org/" + front_matter.doi)
+           .html(front_matter.doi)
+           .appendTo(doi_p);
+      }
+
+       // change plural form of authors/affiliations
+      if (front_matter.authors.length === 1) {
+        var grid = $('.authors-affiliations');
+        grid.children('h3:contains("Authors")').text('Author');
+        grid.children('h3:contains("Affiliations")').text('Affiliation');
+      }
+
+      // remove d-appendix and d-footnote-list local styles
+      $('d-appendix > style:first-child').remove();
+      $('d-footnote-list > style:first-child').remove();
+
+      // move appendix-bottom entries to the bottom
+      $('.appendix-bottom').appendTo('d-appendix').children().unwrap();
+      $('.appendix-bottom').remove();
+
+      // hoverable references
+      $('span.citation[data-cites]').each(function() {
+        var refs = $(this).attr('data-cites').split(" ");
+        var refHtml = refs.map(function(ref) {
+          return "<p>" + $('#ref-' + ref).html() + "</p>";
+        }).join("\n");
+        window.tippy(this, {
+          allowHTML: true,
+          content: refHtml,
+          maxWidth: 500,
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'light-border',
+          placement: 'bottom-start'
+        });
+      });
+
+      // clear polling timer
+      clearInterval(tid);
+
+      // show body now that everything is ready
+      on_load_complete();
+    }
+
+    var tid = setInterval(distill_post_process, 50);
+    distill_post_process();
+
+  }
+
+  function init_downlevel() {
+
+    init_common();
+
+     // insert hr after d-title
+    $('.d-title').after($('<hr class="section-separator"/>'));
+
+    // check if we have authors
+    var front_matter = JSON.parse($("#distill-front-matter").html());
+    var have_authors = front_matter.authors && front_matter.authors.length > 0;
+
+    // manage byline/border
+    if (!have_authors)
+      $('.d-byline').remove();
+    $('.d-byline').after($('<hr class="section-separator"/>'));
+    $('.d-byline a').remove();
+
+    // remove toc
+    $('.d-contents').remove();
+
+    // move appendix elements
+    $('h1.appendix, h2.appendix').each(function(i, val) {
+      $(this).changeElementType('h3');
+    });
+    $('h3.appendix').each(function(i, val) {
+      $(this).nextUntil($('h1, h2, h3')).addBack().appendTo($('.d-appendix'));
+    });
+
+
+    // inject headers into references and footnotes
+    var refs_header = $('<h3></h3>');
+    refs_header.text('References');
+    $('#refs').prepend(refs_header);
+
+    var footnotes_header = $('<h3></h3');
+    footnotes_header.text('Footnotes');
+    $('.footnotes').children('hr').first().replaceWith(footnotes_header);
+
+    // move appendix-bottom entries to the bottom
+    $('.appendix-bottom').appendTo('.d-appendix').children().unwrap();
+    $('.appendix-bottom').remove();
+
+    // remove appendix if it's empty
+    if ($('.d-appendix').children().length === 0)
+      $('.d-appendix').remove();
+
+    // prepend separator above appendix
+    $('.d-appendix').before($('<hr class="section-separator" style="clear: both"/>'));
+
+    // trim code
+    $('pre>code').each(function(i, val) {
+      $(this).html($.trim($(this).html()));
+    });
+
+    // move posts-container right before article
+    $('.posts-container').insertBefore($('.d-article'));
+
+    $('body').addClass('downlevel');
+
+    on_load_complete();
+  }
+
+
+  function init_common() {
+
+    // jquery plugin to change element types
+    (function($) {
+      $.fn.changeElementType = function(newType) {
+        var attrs = {};
+
+        $.each(this[0].attributes, function(idx, attr) {
+          attrs[attr.nodeName] = attr.nodeValue;
+        });
+
+        this.replaceWith(function() {
+          return $("<" + newType + "/>", attrs).append($(this).contents());
+        });
+      };
+    })(jQuery);
+
+    // prevent underline for linked images
+    $('a > img').parent().css({'border-bottom' : 'none'});
+
+    // mark non-body figures created by knitr chunks as 100% width
+    $('.layout-chunk').each(function(i, val) {
+      var figures = $(this).find('img, .html-widget');
+      if ($(this).attr('data-layout') !== "l-body") {
+        figures.css('width', '100%');
+      } else {
+        figures.css('max-width', '100%');
+        figures.filter("[width]").each(function(i, val) {
+          var fig = $(this);
+          fig.css('width', fig.attr('width') + 'px');
+        });
+
+      }
+    });
+
+    // auto-append index.html to post-preview links in file: protocol
+    // and in rstudio ide preview
+    $('.post-preview').each(function(i, val) {
+      if (window.location.protocol === "file:")
+        $(this).attr('href', $(this).attr('href') + "index.html");
+    });
+
+    // get rid of index.html references in header
+    if (window.location.protocol !== "file:") {
+      $('.distill-site-header a[href]').each(function(i,val) {
+        $(this).attr('href', $(this).attr('href').replace("index.html", "./"));
+      });
+    }
+
+    // add class to pandoc style tables
+    $('tr.header').parent('thead').parent('table').addClass('pandoc-table');
+    $('.kable-table').children('table').addClass('pandoc-table');
+
+    // add figcaption style to table captions
+    $('caption').parent('table').addClass("figcaption");
+
+    // initialize posts list
+    if (window.init_posts_list)
+      window.init_posts_list();
+
+    // implmement disqus comment link
+    $('.disqus-comment-count').click(function() {
+      window.headroom_prevent_pin = true;
+      $('#disqus_thread').toggleClass('hidden');
+      if (!$('#disqus_thread').hasClass('hidden')) {
+        var offset = $(this).offset();
+        $(window).resize();
+        $('html, body').animate({
+          scrollTop: offset.top - 35
+        });
+      }
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    if (is_downlevel_browser())
+      init_downlevel();
+    else
+      window.addEventListener('WebComponentsReady', init_distill);
+  });
+
+  </script>
+
+  <!--/radix_placeholder_distill-->
+  <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+  <script src="site_libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+  <script src="site_libs/plotly-binding-4.10.0/plotly.js"></script>
+  <script src="site_libs/typedarray-0.1/typedarray.min.js"></script>
+  <script src="site_libs/jquery-3.5.1/jquery.min.js"></script>
+  <link href="site_libs/crosstalk-1.1.1/css/crosstalk.css" rel="stylesheet" />
+  <script src="site_libs/crosstalk-1.1.1/js/crosstalk.min.js"></script>
+  <link href="site_libs/plotly-htmlwidgets-css-2.5.1/plotly-htmlwidgets.css" rel="stylesheet" />
+  <script src="site_libs/plotly-main-2.5.1/plotly-latest.min.js"></script>
+  <script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+  <link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+  <script src="site_libs/popper-2.6.0/popper.min.js"></script>
+  <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="site_libs/tippy-6.2.7/tippy.umd.min.js"></script>
+  <script src="site_libs/anchor-4.2.2/anchor.min.js"></script>
+  <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>
+  <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="site_libs/distill-2.2.21/template.v2.js"></script>
+  <!--radix_placeholder_site_in_header-->
+  <!--/radix_placeholder_site_in_header-->
+
+
+</head>
+
+<body>
+
+<!--radix_placeholder_front_matter-->
+
+<script id="distill-front-matter" type="text/json">
+{"title":"RGPD2","description":"RANBP2-like and GRIP domain-containing protein 2 (Ran-binding protein 2-like 2) (RanBP2-like 2) (RanBP2L2)","authors":[]}
+</script>
+
+<!--/radix_placeholder_front_matter-->
+<!--radix_placeholder_navigation_before_body-->
+<header class="header header--fixed" role="banner">
+<nav class="distill-site-nav distill-site-header">
+<div class="nav-left">
+<a class="logo" href="https://www.imb.de/research/beli/research">
+<img src="images/logo.png" alt="Logo"/>
+</a>
+<a href="index.html" class="title">DDRBase</a>
+<input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
+</div>
+<div class="nav-right">
+<a href="index.html">Home</a>
+<a href="datasets.html">Datasets</a>
+<a href="about.html">About</a>
+<a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
+</div>
+</nav>
+</header>
+<!--/radix_placeholder_navigation_before_body-->
+<!--radix_placeholder_site_before_body-->
+<!--/radix_placeholder_site_before_body-->
+
+<div class="d-title">
+<h1>RGPD2</h1>
+<!--radix_placeholder_categories-->
+<!--/radix_placeholder_categories-->
+<p><p>RANBP2-like and GRIP domain-containing protein 2 (Ran-binding protein 2-like 2) (RanBP2-like 2) (RanBP2L2)</p></p>
+</div>
+
+
+<div class="d-article">
+<h1 id="rgpd2-p0djd1">RGPD2 ❯ P0DJD1</h1>
+<h2 id="gene-names">Gene names</h2>
+<p>RGPD2 RANBP2L2 RGP2</p>
+<h2 id="function">Function</h2>
+<h2 id="keywords">Keywords</h2>
+<p>Phosphoprotein; Reference proteome; Repeat; TPR repeat</p>
+<p>
+Source: <a href="https://www.uniprot.org/uniprot/P0DJD1" class="uri">https://www.uniprot.org/uniprot/P0DJD1</a>
+</p>
+<h2 id="domains-phosphorylated-positions">Domains &amp; Phosphorylated positions</h2>
+<div class="layout-chunk" data-layout="l-body">
+
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<div id="htmlwidget-cc111d88e3975f54a369" style="width:624px;height:192px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-cc111d88e3975f54a369">{"x":{"data":[{"x":[1,1,1756,1756,1],"y":[0,1,1,0,0],"text":"Positions: 1-1756 - protein ","type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"transparent","dash":"solid"},"fill":"toself","fillcolor":"rgba(204,204,204,1)","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1693,1693,1743,1743,1693],"y":[0,1,1,0,0],"text":"Positions: 1693-1743 - domain GRIP","type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"transparent","dash":"solid"},"fill":"toself","fillcolor":"rgba(0,0,0,1)","hoveron":"fills","name":"GRIP","legendgroup":"GRIP","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1029,1029,1165,1165,1029],"y":[0,1,1,0,0],"text":"Positions: 1029-1165 - domain RanBD1 1","type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"transparent","dash":"solid"},"fill":"toself","fillcolor":"rgba(223,83,107,1)","hoveron":"fills","name":"RanBD1 1","legendgroup":"RanBD1 1","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1326,1326,1462,1462,1326],"y":[0,1,1,0,0],"text":"Positions: 1326-1462 - domain RanBD1 2","type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"transparent","dash":"solid"},"fill":"toself","fillcolor":"rgba(97,208,79,1)","hoveron":"fills","name":"RanBD1 2","legendgroup":"RanBD1 2","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1001,1001,1001,1001,1001],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 1001-1001 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1002,1002,1002,1002,1002],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 1002-1002 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1009,1009,1009,1009,1009],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 1009-1009 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1010,1010,1010,1010,1010],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 1010-1010 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1016,1016,1016,1016,1016],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 1016-1016 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1017,1017,1017,1017,1017,null,1017,1017,1017,1017,1017],"y":[-0.1,1.1,1.1,-0.1,-0.1,null,-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 1017-1017 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1018,1018,1018,1018,1018],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 1018-1018 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1162,1162,1162,1162,1162],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 1162-1162 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1170,1170,1170,1170,1170],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 1170-1170 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1177,1177,1177,1177,1177],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 1177-1177 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1178,1178,1178,1178,1178],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 1178-1178 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[119,119,119,119,119],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 119-119 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[127,127,127,127,127],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 127-127 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[128,128,128,128,128,null,128,128,128,128,128,null,128,128,128,128,128],"y":[-0.1,1.1,1.1,-0.1,-0.1,null,-0.1,1.1,1.1,-0.1,-0.1,null,-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 128-128 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1302,1302,1302,1302,1302],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 1302-1302 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1306,1306,1306,1306,1306],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 1306-1306 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1310,1310,1310,1310,1310],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 1310-1310 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1314,1314,1314,1314,1314],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 1314-1314 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1318,1318,1318,1318,1318],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 1318-1318 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1322,1322,1322,1322,1322],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 1322-1322 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1459,1459,1459,1459,1459],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 1459-1459 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1463,1463,1463,1463,1463],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 1463-1463 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1465,1465,1465,1465,1465],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 1465-1465 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1466,1466,1466,1466,1466],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 1466-1466 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1467,1467,1467,1467,1467,null,1467,1467,1467,1467,1467],"y":[-0.1,1.1,1.1,-0.1,-0.1,null,-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 1467-1467 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1471,1471,1471,1471,1471,null,1471,1471,1471,1471,1471],"y":[-0.1,1.1,1.1,-0.1,-0.1,null,-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 1471-1471 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1473,1473,1473,1473,1473],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 1473-1473 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1474,1474,1474,1474,1474,null,1474,1474,1474,1474,1474],"y":[-0.1,1.1,1.1,-0.1,-0.1,null,-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 1474-1474 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1475,1475,1475,1475,1475,null,1475,1475,1475,1475,1475],"y":[-0.1,1.1,1.1,-0.1,-0.1,null,-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 1475-1475 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1478,1478,1478,1478,1478],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 1478-1478 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1479,1479,1479,1479,1479,null,1479,1479,1479,1479,1479],"y":[-0.1,1.1,1.1,-0.1,-0.1,null,-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 1479-1479 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1480,1480,1480,1480,1480],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 1480-1480 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1481,1481,1481,1481,1481,null,1481,1481,1481,1481,1481],"y":[-0.1,1.1,1.1,-0.1,-0.1,null,-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 1481-1481 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1482,1482,1482,1482,1482,null,1482,1482,1482,1482,1482],"y":[-0.1,1.1,1.1,-0.1,-0.1,null,-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 1482-1482 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1483,1483,1483,1483,1483],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 1483-1483 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1486,1486,1486,1486,1486],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 1486-1486 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1487,1487,1487,1487,1487],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 1487-1487 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1519,1519,1519,1519,1519],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 1519-1519 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1527,1527,1527,1527,1527],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 1527-1527 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1534,1534,1534,1534,1534],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 1534-1534 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1535,1535,1535,1535,1535],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 1535-1535 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1992,1992,1992,1992,1992],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 1992-1992 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[1993,1993,1993,1993,1993],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 1993-1993 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[2153,2153,2153,2153,2153],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 2153-2153 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[2293,2293,2293,2293,2293],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 2293-2293 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[2297,2297,2297,2297,2297],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 2297-2297 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[2450,2450,2450,2450,2450],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 2450-2450 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[2454,2454,2454,2454,2454],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 2454-2454 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[2456,2456,2456,2456,2456],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 2456-2456 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[2457,2457,2457,2457,2457],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 2457-2457 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[2458,2458,2458,2458,2458],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 2458-2458 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[2462,2462,2462,2462,2462],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 2462-2462 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[2510,2510,2510,2510,2510],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 2510-2510 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[779,779,779,779,779],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 779-779 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[787,787,787,787,787,null,787,787,787,787,787],"y":[-0.1,1.1,1.1,-0.1,-0.1,null,-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 787-787 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[788,788,788,788,788],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 788-788 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[789,789,789,789,789],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 789-789 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[790,790,790,790,790],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 790-790 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[795,795,795,795,795],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 795-795 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[796,796,796,796,796],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 796-796 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[797,797,797,797,797],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 797-797 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[798,798,798,798,798],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 798-798 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[881,881,881,881,881],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 881-881 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[889,889,889,889,889],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 889-889 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[896,896,896,896,896,null,896,896,896,896,896],"y":[-0.1,1.1,1.1,-0.1,-0.1,null,-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 896-896 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}},{"x":[897,897,897,897,897],"y":[-0.1,1.1,1.1,-0.1,-0.1],"text":"Positions: 897-897 - phospho ","type":"scatter","mode":"lines","line":{"width":3.77952755905512,"color":"rgba(255,0,0,0.6667)","dash":"solid"},"fill":"toself","fillcolor":"transparent","hoveron":"fills","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null,"hoverlabel":{"bgcolor":"#232F34"}}],"layout":{"margin":{"t":39.7442922374429,"r":7.30593607305936,"b":53.6986301369863,"l":10.958904109589},"font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-124.45,2635.45],"tickmode":"array","ticktext":["1","500","1000","1500","1756"],"tickvals":[1,500,1000,1500,1756],"categoryorder":"array","categoryarray":["1","500","1000","1500","1756"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.65296803652968,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176,"zeroline":false,"anchor":"y","title":{"text":"Position","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-0.05,1.05],"tickmode":"array","ticktext":[],"tickvals":[],"categoryorder":"array","categoryarray":[],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.65296803652968,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176,"zeroline":false,"anchor":"x","title":{"text":"","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":true,"legend":{"bgcolor":null,"bordercolor":null,"borderwidth":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.689497716895},"title":{"text":"Domains","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displaylogo":false,"modeBarButtonsToRemove":["zoom2d","pan2d","select2d","lasso2d","hoverClosestCartesian","hoverCompareCartesian","zoomIn2d","zoomOut2d","autoScale2d","toggleSpikelines"]},"source":"A","attrs":{"2335a12d7c2e8":{"text":{},"xmin":{},"xmax":{},"type":"scatter"},"2335a30f7d817":{"text":{},"xmin":{},"xmax":{},"fill":{}},"2335a3aa0aef0":{"text":{},"xmin":{},"xmax":{}}},"cur_data":"2335a12d7c2e8","visdat":{"2335a12d7c2e8":["function (y) ","x"],"2335a30f7d817":["function (y) ","x"],"2335a3aa0aef0":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+<h3 id="domains">Domains</h3>
+<div class="layout-chunk" data-layout="l-body">
+<table class="table table-striped table-hover table-condensed table-responsive" style="width: auto !important; ">
+<thead>
+<tr>
+<th style="text-align:left;">
+</th>
+<th style="text-align:right;">
+start
+</th>
+<th style="text-align:right;">
+end
+</th>
+<th style="text-align:left;">
+evidence
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+RanBD1 1
+</td>
+<td style="text-align:right;">
+1029
+</td>
+<td style="text-align:right;">
+1165
+</td>
+<td style="text-align:left;">
+ECO:0000255|PROSITE-ProRule:PRU00164
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+RanBD1 2
+</td>
+<td style="text-align:right;">
+1326
+</td>
+<td style="text-align:right;">
+1462
+</td>
+<td style="text-align:left;">
+ECO:0000255|PROSITE-ProRule:PRU00164
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+GRIP
+</td>
+<td style="text-align:right;">
+1693
+</td>
+<td style="text-align:right;">
+1743
+</td>
+<td style="text-align:left;">
+ECO:0000255|PROSITE-ProRule:PRU00250
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="phosphorylated-positions">Phosphorylated positions</h3>
+<div class="layout-chunk" data-layout="l-body">
+<table class="table table-striped table-hover table-condensed table-responsive" style="width: auto !important; ">
+<thead>
+<tr>
+<th style="text-align:right;">
+position
+</th>
+<th style="text-align:left;">
+sequence window
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right;">
+119
+</td>
+<td style="text-align:left;">
+RAEYWVERAAKLFPGSPAIYKLKEQLLDCEG;RAKYWLERAAKLFPGSPAIYKLKEQLLDCEG;RAKYWVERAAKLFPGSPAIYKLKEHLLDCEG;RAKYWVERAAKLFPGSPAIYKLKEQLLDCEG
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+127
+</td>
+<td style="text-align:left;">
+RAEYWVERAAKLFPGSPAIYKLKEQLLDCEG;RAKYWLERAAKLFPGSPAIYKLKEQLLDCEG;RAKYWVERAAKLFPGSPAIYKLKEHLLDCEG;RAKYWVERAAKLFPGSPAIYKLKEQLLDCEG
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+128
+</td>
+<td style="text-align:left;">
+RAEYWVERAAKLFPGSPAIYKLKEQLLDCEG;RAKYWLERAAKLFPGSPAIYKLKEQLLDCEG;RAKYWVERAAKLFPGSPAIYKLKEHLLDCEG;RAKYWVERAAKLFPGSPAIYKLKEQLLDCEG
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+128
+</td>
+<td style="text-align:left;">
+RAEYWVERAAKLFPGSPAIYKLKEQLLDCEG;RAKYWLERAAKLFPGSPAIYKLKEQLLDCEG;RAKYWVERAAKLFPGSPAIYKLKEHLLDCEG;RAKYWVERAAKLFPGSPAIYKLKEQLLDCEG
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+128
+</td>
+<td style="text-align:left;">
+RAEYWVERAAKLFPGSPAIYKLKEQLLDCEG;RAKYWLERAAKLFPGSPAIYKLKEQLLDCEG;RAKYWVERAAKLFPGSPAIYKLKEHLLDCEG;RAKYWVERAAKLFPGSPAIYKLKEQLLDCEG
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+779
+</td>
+<td style="text-align:left;">
+SEIKHSTPSPTKYSLSPSKSYKYSPETPPRW;SEIKHSTPSPTKYSLSPSKSYKYSPKTPPRW
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+787
+</td>
+<td style="text-align:left;">
+SPTKYSLSPSKSYKYSPKTPPRWAEDQNSLL;SPTKYSLSPSKSYKYSPKTPPRWAEDQNSLR;SPTRYSLSPSKSYKYSPKTPPRWAEDQNSLL
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+787
+</td>
+<td style="text-align:left;">
+SEIKHSTPSPTKYSLSPSKSYKYSPETPPRW;SEIKHSTPSPTKYSLSPSKSYKYSPKTPPRW
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+788
+</td>
+<td style="text-align:left;">
+SEIKHSTPSPTKYSLSPSKSYKYSPETPPRW;SEIKHSTPSPTKYSLSPSKSYKYSPKTPPRW
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+789
+</td>
+<td style="text-align:left;">
+SEIKHSTPSPTKYSLSPSKSYKYSPETPPRW;SEIKHSTPSPTKYSLSPSKSYKYSPKTPPRW
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+790
+</td>
+<td style="text-align:left;">
+KYSLSPSKSYKYSPKTPPRWAEDQNSLRKMI
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+795
+</td>
+<td style="text-align:left;">
+SPTKYSLSPSKSYKYSPKTPPRWAEDQNSLL;SPTKYSLSPSKSYKYSPKTPPRWAEDQNSLR;SPTRYSLSPSKSYKYSPKTPPRWAEDQNSLL
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+796
+</td>
+<td style="text-align:left;">
+SPTKYSLSPSKSYKYSPKTPPRWAEDQNSLL;SPTKYSLSPSKSYKYSPKTPPRWAEDQNSLR;SPTRYSLSPSKSYKYSPKTPPRWAEDQNSLL
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+797
+</td>
+<td style="text-align:left;">
+SPTKYSLSPSKSYKYSPKTPPRWAEDQNSLL;SPTKYSLSPSKSYKYSPKTPPRWAEDQNSLR;SPTRYSLSPSKSYKYSPKTPPRWAEDQNSLL
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+798
+</td>
+<td style="text-align:left;">
+KYSLSPSKSYKYSPKTPPRWAEDQNSLRKMI
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+881
+</td>
+<td style="text-align:left;">
+PAYNSQYLLRPAANVTPTKGPVYGMNRLPPQ;PAYNSQYLLRPAANVTPTKGSSNTEFKSTKE
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+889
+</td>
+<td style="text-align:left;">
+PAYNSQYLLRPAANVTPTKGPVYGMNRLPPQ;PAYNSQYLLRPAANVTPTKGSSNTEFKSTKE
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+896
+</td>
+<td style="text-align:left;">
+PAYNSQYLLRPAANVTPTKGPVYGMNRLPPQ;PAYNSQYLLRPAANVTPTKGSSNTEFKSTKE
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+896
+</td>
+<td style="text-align:left;">
+PAYNSQYLLRPAANVTPTKGPVYGMNRLPPQ;PAYNSQYLLRPAANVTPTKGSSNTEFKSTKE
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+897
+</td>
+<td style="text-align:left;">
+PAYNSQYLLRPAANVTPTKGPVYGMNRLPPQ;PAYNSQYLLRPAANVTPTKGSSNTEFKSTKE
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1001
+</td>
+<td style="text-align:left;">
+KLFSSQCGKMANKANTSGDFEKDDDACKTED;KLFSSQYGKMANKANTSGDFEKDDDAYKTED;KLFSSRYGKMANKANTSGDFEKDDDAYKTED
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1002
+</td>
+<td style="text-align:left;">
+LFSSQCGKMANKANTSGDFEKDDDACKTEDS;LFSSQYGKMANKANTSGDFEKDDDAYKTEDS;LFSSRYGKMANKANTSGDFEKDDDAYKTEDS
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1009
+</td>
+<td style="text-align:left;">
+KLFSSQCGKMANKANTSGDFEKDDDACKTED;KLFSSQYGKMANKANTSGDFEKDDDAYKTED;KLFSSRYGKMANKANTSGDFEKDDDAYKTED
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1010
+</td>
+<td style="text-align:left;">
+LFSSQCGKMANKANTSGDFEKDDDACKTEDS;LFSSQYGKMANKANTSGDFEKDDDAYKTEDS;LFSSRYGKMANKANTSGDFEKDDDAYKTEDS
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1016
+</td>
+<td style="text-align:left;">
+KLFSSQCGKMANKANTSGDFEKDDDACKTED;KLFSSQYGKMANKANTSGDFEKDDDAYKTED;KLFSSRYGKMANKANTSGDFEKDDDAYKTED
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1017
+</td>
+<td style="text-align:left;">
+LFSSQCGKMANKANTSGDFEKDDDACKTEDS;LFSSQYGKMANKANTSGDFEKDDDAYKTEDS;LFSSRYGKMANKANTSGDFEKDDDAYKTEDS
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1017
+</td>
+<td style="text-align:left;">
+KLFSSQCGKMANKANTSGDFEKDDDACKTED;KLFSSQYGKMANKANTSGDFEKDDDAYKTED;KLFSSRYGKMANKANTSGDFEKDDDAYKTED
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1018
+</td>
+<td style="text-align:left;">
+LFSSQCGKMANKANTSGDFEKDDDACKTEDS;LFSSQYGKMANKANTSGDFEKDDDAYKTEDS;LFSSRYGKMANKANTSGDFEKDDDAYKTEDS
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1162
+</td>
+<td style="text-align:left;">
+KFEECQRLLLDIPLQTPHKLVDTGRAAKLIQ
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1170
+</td>
+<td style="text-align:left;">
+KFEECQRLLLDIPLQTPHKLVDTGRAAKLIQ
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1177
+</td>
+<td style="text-align:left;">
+KFEECQRLLLDIPLQTPHKLVDTGRAAKLIQ
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1178
+</td>
+<td style="text-align:left;">
+KFEECQRLLLDIPLQTPHKLVDTGRAAKLIQ
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1302
+</td>
+<td style="text-align:left;">
+SKSPAKLNQSGTSVGTDEESDVTQEEERDGQ
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1306
+</td>
+<td style="text-align:left;">
+AKLNQSGTSVGTDEESDVTQEEERDGQYFEP
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1310
+</td>
+<td style="text-align:left;">
+SKSPAKLNQSGTSVGTDEESDVTQEEERDGQ
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1314
+</td>
+<td style="text-align:left;">
+AKLNQSGTSVGTDEESDVTQEEERDGQYFEP
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1318
+</td>
+<td style="text-align:left;">
+SKSPAKLNQSGTSVGTDEESDVTQEEERDGQ
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1322
+</td>
+<td style="text-align:left;">
+AKLNQSGTSVGTDEESDVTQEEERDGQYFEP
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1459
+</td>
+<td style="text-align:left;">
+IFDEAKTAQEKDSLITPHVSRSSTPRESPCG
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1463
+</td>
+<td style="text-align:left;">
+AKTAQEKDSLITPHVSRSSTPRESPCGKIAV
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1465
+</td>
+<td style="text-align:left;">
+TAQEKDSLITPHVSRSSTPRESPCGKIAVAI;TAQEKDSLITPHVSRSSTPRESPCGKIAVAV
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1466
+</td>
+<td style="text-align:left;">
+AQEKDSLITPHVSRSSTPRESPCGKIAVAIL;AQEKDSLITPHVSRSSTPRESPCGKIAVAVL
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1467
+</td>
+<td style="text-align:left;">
+IFDEAKTAQEKDSLITPHVSRSSTPRESPCG
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1467
+</td>
+<td style="text-align:left;">
+QEKDSLITPHVSRSSTPRESPCGKIAVAILE;QEKDSLITPHVSRSSTPRESPCGKIAVAVLE
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1471
+</td>
+<td style="text-align:left;">
+AKTAQEKDSLITPHVSRSSTPRESPCGKIAV
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1471
+</td>
+<td style="text-align:left;">
+SLITPHVSRSSTPRESPCGKIAVAILEETTR;SLITPHVSRSSTPRESPCGKIAVAVLEETTR
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1473
+</td>
+<td style="text-align:left;">
+TAQEKDSLITPHVSRSSTPRESPCGKIAVAI;TAQEKDSLITPHVSRSSTPRESPCGKIAVAV
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1474
+</td>
+<td style="text-align:left;">
+AQEKDSLITPHVSRSSTPRESPCGKIAVAIL;AQEKDSLITPHVSRSSTPRESPCGKIAVAVL
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1474
+</td>
+<td style="text-align:left;">
+IFDEAKTAQEKDSLITPHVSRSSTPRESPCG
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1475
+</td>
+<td style="text-align:left;">
+IFDEAKTAQEKDSLITPHVSRSSTPRESPCG
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1475
+</td>
+<td style="text-align:left;">
+QEKDSLITPHVSRSSTPRESPCGKIAVAILE;QEKDSLITPHVSRSSTPRESPCGKIAVAVLE
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1478
+</td>
+<td style="text-align:left;">
+AKTAQEKDSLITPHVSRSSTPRESPCGKIAV
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1479
+</td>
+<td style="text-align:left;">
+AKTAQEKDSLITPHVSRSSTPRESPCGKIAV
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1479
+</td>
+<td style="text-align:left;">
+SLITPHVSRSSTPRESPCGKIAVAILEETTR;SLITPHVSRSSTPRESPCGKIAVAVLEETTR
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1480
+</td>
+<td style="text-align:left;">
+TAQEKDSLITPHVSRSSTPRESPCGKIAVAI;TAQEKDSLITPHVSRSSTPRESPCGKIAVAV
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1481
+</td>
+<td style="text-align:left;">
+TAQEKDSLITPHVSRSSTPRESPCGKIAVAI;TAQEKDSLITPHVSRSSTPRESPCGKIAVAV
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1481
+</td>
+<td style="text-align:left;">
+AQEKDSLITPHVSRSSTPRESPCGKIAVAIL;AQEKDSLITPHVSRSSTPRESPCGKIAVAVL
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1482
+</td>
+<td style="text-align:left;">
+AQEKDSLITPHVSRSSTPRESPCGKIAVAIL;AQEKDSLITPHVSRSSTPRESPCGKIAVAVL
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1482
+</td>
+<td style="text-align:left;">
+QEKDSLITPHVSRSSTPRESPCGKIAVAILE;QEKDSLITPHVSRSSTPRESPCGKIAVAVLE
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1483
+</td>
+<td style="text-align:left;">
+QEKDSLITPHVSRSSTPRESPCGKIAVAILE;QEKDSLITPHVSRSSTPRESPCGKIAVAVLE
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1486
+</td>
+<td style="text-align:left;">
+SLITPHVSRSSTPRESPCGKIAVAILEETTR;SLITPHVSRSSTPRESPCGKIAVAVLEETTR
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1487
+</td>
+<td style="text-align:left;">
+SLITPHVSRSSTPRESPCGKIAVAILEETTR;SLITPHVSRSSTPRESPCGKIAVAVLEETTR
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1519
+</td>
+<td style="text-align:left;">
+VEVSSTSETTPKAVVSPPKFVFGSESVKSIF;VEVSSTSETTTKAVVSPPKFVFGSESVKRIF;VEVSSTSETTTKAVVSPPKFVFVSESVKRIF
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1527
+</td>
+<td style="text-align:left;">
+VEVSSTSETTPKAVVSPPKFVFGSESVKSIF;VEVSSTSETTTKAVVSPPKFVFGSESVKRIF;VEVSSTSETTTKAVVSPPKFVFVSESVKRIF
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1534
+</td>
+<td style="text-align:left;">
+VEVSSTSETTPKAVVSPPKFVFGSESVKSIF;VEVSSTSETTTKAVVSPPKFVFGSESVKRIF;VEVSSTSETTTKAVVSPPKFVFVSESVKRIF
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1535
+</td>
+<td style="text-align:left;">
+VEVSSTSETTPKAVVSPPKFVFGSESVKSIF;VEVSSTSETTTKAVVSPPKFVFGSESVKRIF;VEVSSTSETTTKAVVSPPKFVFVSESVKRIF
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1992
+</td>
+<td style="text-align:left;">
+KLFSSQCGKMANKANTSGDFEKDDDACKTED;KLFSSQYGKMANKANTSGDFEKDDDAYKTED;KLFSSRYGKMANKANTSGDFEKDDDAYKTED
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1993
+</td>
+<td style="text-align:left;">
+LFSSQCGKMANKANTSGDFEKDDDACKTEDS;LFSSQYGKMANKANTSGDFEKDDDAYKTEDS;LFSSRYGKMANKANTSGDFEKDDDAYKTEDS
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+2153
+</td>
+<td style="text-align:left;">
+KFEECQRLLLDIPLQTPHKLVDTGRAAKLIQ
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+2293
+</td>
+<td style="text-align:left;">
+SKSPAKLNQSGTSVGTDEESDVTQEEERDGQ
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+2297
+</td>
+<td style="text-align:left;">
+AKLNQSGTSVGTDEESDVTQEEERDGQYFEP
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+2450
+</td>
+<td style="text-align:left;">
+IFDEAKTAQEKDSLITPHVSRSSTPRESPCG
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+2454
+</td>
+<td style="text-align:left;">
+AKTAQEKDSLITPHVSRSSTPRESPCGKIAV
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+2456
+</td>
+<td style="text-align:left;">
+TAQEKDSLITPHVSRSSTPRESPCGKIAVAI;TAQEKDSLITPHVSRSSTPRESPCGKIAVAV
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+2457
+</td>
+<td style="text-align:left;">
+AQEKDSLITPHVSRSSTPRESPCGKIAVAIL;AQEKDSLITPHVSRSSTPRESPCGKIAVAVL
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+2458
+</td>
+<td style="text-align:left;">
+QEKDSLITPHVSRSSTPRESPCGKIAVAILE;QEKDSLITPHVSRSSTPRESPCGKIAVAVLE
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+2462
+</td>
+<td style="text-align:left;">
+SLITPHVSRSSTPRESPCGKIAVAILEETTR;SLITPHVSRSSTPRESPCGKIAVAVLEETTR
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+2510
+</td>
+<td style="text-align:left;">
+VEVSSTSETTPKAVVSPPKFVFGSESVKSIF;VEVSSTSETTTKAVVSPPKFVFGSESVKRIF;VEVSSTSETTTKAVVSPPKFVFVSESVKRIF
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="phosphorylation">Phosphorylation</h2>
+<div class="layout-chunk" data-layout="l-body">
+<div id="htmlwidget-46e695e4156d64f024c1" style="width:624px;height:912px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-46e695e4156d64f024c1">{"x":{"data":[{"x":[1,2,3,4,5,6,7,8,9,10,11],"y":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17],"z":[[0.679611650485437,0.679611650485437,0.592233009708738,0.58252427184466,0.733009708737864,0.548543689320388,0.830097087378641,0.577669902912621,0.509708737864078,0.713592233009709,0.635922330097087],[0.674757281553398,0.611650485436893,0.514563106796116,0.635922330097087,0.660194174757282,0.70873786407767,0.733009708737864,0.611650485436893,0.66504854368932,0.757281553398058,0.553398058252427],[0.718446601941748,0.703883495145631,0.66504854368932,0.699029126213592,0.718446601941748,0.699029126213592,0.742718446601942,0.660194174757282,0.669902912621359,0.747572815533981,0.679611650485437],[0.771844660194175,0.79126213592233,0.79126213592233,0.786407766990291,0.776699029126214,0.684466019417476,0.766990291262136,0.742718446601942,0.684466019417476,0.766990291262136,0.796116504854369],[0.79126213592233,0.830097087378641,0.830097087378641,0.815533980582524,0.815533980582524,0.718446601941748,0.786407766990291,0.762135922330097,0.752427184466019,0.825242718446602,0.781553398058252],[0.635922330097087,0.597087378640777,0.592233009708738,0.66504854368932,0.631067961165049,0.703883495145631,0.699029126213592,0.655339805825243,0.723300970873786,0.771844660194175,0.616504854368932],[0.635922330097087,0.597087378640777,0.592233009708738,0.66504854368932,0.631067961165049,0.800970873786408,0.54368932038835,0.655339805825243,0.723300970873786,0.815533980582524,0.616504854368932],[0.83495145631068,0.902912621359223,0.878640776699029,0.747572815533981,0.810679611650486,0.820388349514563,0.655339805825243,0.606796116504854,0.781553398058252,0.87378640776699,0.723300970873786],[0.907766990291262,0.898058252427185,0.844660194174757,0.742718446601942,0.868932038834951,0.825242718446602,0.830097087378641,0.815533980582524,0.640776699029126,0.83495145631068,0.776699029126214],[0.135922330097087,0.310679611650485,0,0.529126213592233,0.286407766990291,0.587378640776699,0.660194174757282,0.155339805825243,1,0.742718446601942,0.0922330097087379],[0.655339805825243,0.640776699029126,0.407766990291262,0.427184466019418,0.645631067961165,0.548543689320388,0.742718446601942,0.490291262135922,0.567961165048544,0.830097087378641,0.485436893203884],[0.694174757281553,0.635922330097087,0.436893203883495,0.466019417475728,0.689320388349515,0.567961165048544,0.771844660194175,0.475728155339806,0.58252427184466,0.800970873786408,0.504854368932039],[0.635922330097087,0.592233009708738,0.29126213592233,0.315533980582524,0.631067961165049,0.461165048543689,0.621359223300971,0.37378640776699,0.864077669902913,0.577669902912621,0.62621359223301],[0.689320388349515,0.655339805825243,0.737864077669903,0.655339805825243,0.742718446601942,0.616504854368932,0.888349514563107,0.718446601941748,0.611650485436893,0.723300970873786,0.79126213592233],[0.689320388349515,0.631067961165049,0.737864077669903,0.655339805825243,0.796116504854369,0.616504854368932,0.888349514563107,0.718446601941748,0.611650485436893,0.723300970873786,0.79126213592233],[0.655339805825243,0.62621359223301,0.587378640776699,0.650485436893204,0.684466019417476,0.62621359223301,0.747572815533981,0.616504854368932,0.475728155339806,0.694174757281553,0.689320388349515],[0.771844660194175,0.737864077669903,0.495145631067961,0.805825242718447,0.58252427184466,0.548543689320388,0.684466019417476,0.70873786407767,0.87378640776699,0.703883495145631,0.54368932038835]],"text":[["Treatment: Aphidicolin <br />Position: 1519;1527;1535;2510;1534 <br />log2FC: -0.17 <br />FDR: 0.22793756 <br />Sequence window: AVVS(1)PPK","Treatment: Camptothecin <br />Position: 1519;1527;1535;2510;1534 <br />log2FC: -0.17 <br />FDR: 0.12853560 <br />Sequence window: AVVS(1)PPK","Treatment: Etoposide <br />Position: 1519;1527;1535;2510;1534 <br />log2FC: -0.35 <br />FDR: 0.00073278 <br />Sequence window: AVVS(1)PPK","Treatment: Formaldehyd <br />Position: 1519;1527;1535;2510;1534 <br />log2FC: -0.37 <br />FDR: 0.00041647 <br />Sequence window: AVVS(1)PPK","Treatment: Gemcitabine <br />Position: 1519;1527;1535;2510;1534 <br />log2FC: -0.06 <br />FDR: 0.77168088 <br />Sequence window: AVVS(1)PPK","Treatment: Hydrogen peroxide <br />Position: 1519;1527;1535;2510;1534 <br />log2FC: -0.44 <br />FDR: 2.2319e-05 <br />Sequence window: AVVS(1)PPK","Treatment: Hydroxyurea <br />Position: 1519;1527;1535;2510;1534 <br />log2FC: 0.14 <br />FDR: 0.27066529 <br />Sequence window: AVVS(1)PPK","Treatment: Methyl methanesulfonate <br />Position: 1519;1527;1535;2510;1534 <br />log2FC: -0.38 <br />FDR: 0.00019304 <br />Sequence window: AVVS(1)PPK","Treatment: Sodium Arsenite <br />Position: 1519;1527;1535;2510;1534 <br />log2FC: -0.52 <br />FDR: 7.3287e-07 <br />Sequence window: AVVS(1)PPK","Treatment: UV-C <br />Position: 1519;1527;1535;2510;1534 <br />log2FC: -0.1 <br />FDR: 0.60466135 <br />Sequence window: AVVS(1)PPK","Treatment: X-ray <br />Position: 1519;1527;1535;2510;1534 <br />log2FC: -0.26 <br />FDR: 0.01518006 <br />Sequence window: AVVS(1)PPK"],["Treatment: Aphidicolin <br />Position: 1471;1479;1487;2462;1486 <br />log2FC: -0.18 <br />FDR: 0.07584841 <br />Sequence window: S(0.068)S(0.088)T(0.845)PRES(1)PCGK","Treatment: Camptothecin <br />Position: 1471;1479;1487;2462;1486 <br />log2FC: -0.31 <br />FDR: 0.00037858 <br />Sequence window: S(0.068)S(0.088)T(0.845)PRES(1)PCGK","Treatment: Etoposide <br />Position: 1471;1479;1487;2462;1486 <br />log2FC: -0.51 <br />FDR: 7.3946e-08 <br />Sequence window: S(0.068)S(0.088)T(0.845)PRES(1)PCGK","Treatment: Formaldehyd <br />Position: 1471;1479;1487;2462;1486 <br />log2FC: -0.26 <br />FDR: 0.00200265 <br />Sequence window: S(0.068)S(0.088)T(0.845)PRES(1)PCGK","Treatment: Gemcitabine <br />Position: 1471;1479;1487;2462;1486 <br />log2FC: -0.21 <br />FDR: 0.03090646 <br />Sequence window: S(0.068)S(0.088)T(0.845)PRES(1)PCGK","Treatment: Hydrogen peroxide <br />Position: 1471;1479;1487;2462;1486 <br />log2FC: -0.11 <br />FDR: 0.19074950 <br />Sequence window: S(0.068)S(0.088)T(0.845)PRES(1)PCGK","Treatment: Hydroxyurea <br />Position: 1471;1479;1487;2462;1486 <br />log2FC: -0.06 <br />FDR: 0.61714305 <br />Sequence window: S(0.068)S(0.088)T(0.845)PRES(1)PCGK","Treatment: Methyl methanesulfonate <br />Position: 1471;1479;1487;2462;1486 <br />log2FC: -0.31 <br />FDR: 0.00016176 <br />Sequence window: S(0.068)S(0.088)T(0.845)PRES(1)PCGK","Treatment: Sodium Arsenite <br />Position: 1471;1479;1487;2462;1486 <br />log2FC: -0.2 <br />FDR: 0.00705884 <br />Sequence window: S(0.068)S(0.088)T(0.845)PRES(1)PCGK","Treatment: UV-C <br />Position: 1471;1479;1487;2462;1486 <br />log2FC: -0.01 <br />FDR: 0.96511681 <br />Sequence window: S(0.068)S(0.088)T(0.845)PRES(1)PCGK","Treatment: X-ray <br />Position: 1471;1479;1487;2462;1486 <br />log2FC: -0.43 <br />FDR: 4.8250e-06 <br />Sequence window: S(0.068)S(0.088)T(0.845)PRES(1)PCGK"],["Treatment: Aphidicolin <br />Position: 1467;1475;1483;2458;1482 <br />log2FC: -0.09 <br />FDR: 0.42302799 <br />Sequence window: S(0.423)S(0.58)T(0.989)PRES(0.007)PCGK","Treatment: Camptothecin <br />Position: 1467;1475;1483;2458;1482 <br />log2FC: -0.12 <br />FDR: 0.14261405 <br />Sequence window: S(0.423)S(0.58)T(0.989)PRES(0.007)PCGK","Treatment: Etoposide <br />Position: 1467;1475;1483;2458;1482 <br />log2FC: -0.2 <br />FDR: 0.00821192 <br />Sequence window: S(0.423)S(0.58)T(0.989)PRES(0.007)PCGK","Treatment: Formaldehyd <br />Position: 1467;1475;1483;2458;1482 <br />log2FC: -0.13 <br />FDR: 0.09865768 <br />Sequence window: S(0.423)S(0.58)T(0.989)PRES(0.007)PCGK","Treatment: Gemcitabine <br />Position: 1467;1475;1483;2458;1482 <br />log2FC: -0.09 <br />FDR: 0.40278959 <br />Sequence window: S(0.423)S(0.58)T(0.989)PRES(0.007)PCGK","Treatment: Hydrogen peroxide <br />Position: 1467;1475;1483;2458;1482 <br />log2FC: -0.13 <br />FDR: 0.07266324 <br />Sequence window: S(0.423)S(0.58)T(0.989)PRES(0.007)PCGK","Treatment: Hydroxyurea <br />Position: 1467;1475;1483;2458;1482 <br />log2FC: -0.04 <br />FDR: 0.67671748 <br />Sequence window: S(0.423)S(0.58)T(0.989)PRES(0.007)PCGK","Treatment: Methyl methanesulfonate <br />Position: 1467;1475;1483;2458;1482 <br />log2FC: -0.21 <br />FDR: 0.00368295 <br />Sequence window: S(0.423)S(0.58)T(0.989)PRES(0.007)PCGK","Treatment: Sodium Arsenite <br />Position: 1467;1475;1483;2458;1482 <br />log2FC: -0.19 <br />FDR: 0.00547774 <br />Sequence window: S(0.423)S(0.58)T(0.989)PRES(0.007)PCGK","Treatment: UV-C <br />Position: 1467;1475;1483;2458;1482 <br />log2FC: -0.03 <br />FDR: 0.89389046 <br />Sequence window: S(0.423)S(0.58)T(0.989)PRES(0.007)PCGK","Treatment: X-ray <br />Position: 1467;1475;1483;2458;1482 <br />log2FC: -0.17 <br />FDR: 0.02326217 <br />Sequence window: S(0.423)S(0.58)T(0.989)PRES(0.007)PCGK"],["Treatment: Aphidicolin <br />Position: 1466;1474;1482;2457;1481 <br />log2FC: 0.02 <br />FDR: 0.93670626 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK","Treatment: Camptothecin <br />Position: 1466;1474;1482;2457;1481 <br />log2FC: 0.06 <br />FDR: 0.63576900 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK","Treatment: Etoposide <br />Position: 1466;1474;1482;2457;1481 <br />log2FC: 0.06 <br />FDR: 0.56291558 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK","Treatment: Formaldehyd <br />Position: 1466;1474;1482;2457;1481 <br />log2FC: 0.05 <br />FDR: 0.63543825 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK","Treatment: Gemcitabine <br />Position: 1466;1474;1482;2457;1481 <br />log2FC: 0.03 <br />FDR: 0.87489687 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK","Treatment: Hydrogen peroxide <br />Position: 1466;1474;1482;2457;1481 <br />log2FC: -0.16 <br />FDR: 0.04725011 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK","Treatment: Hydroxyurea <br />Position: 1466;1474;1482;2457;1481 <br />log2FC: 0.01 <br />FDR: 0.93704315 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK","Treatment: Methyl methanesulfonate <br />Position: 1466;1474;1482;2457;1481 <br />log2FC: -0.04 <br />FDR: 0.67012717 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK","Treatment: Sodium Arsenite <br />Position: 1466;1474;1482;2457;1481 <br />log2FC: -0.16 <br />FDR: 0.03625927 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK","Treatment: UV-C <br />Position: 1466;1474;1482;2457;1481 <br />log2FC: 0.01 <br />FDR: 0.97697434 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK","Treatment: X-ray <br />Position: 1466;1474;1482;2457;1481 <br />log2FC: 0.07 <br />FDR: 0.45789458 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK"],["Treatment: Aphidicolin <br />Position: 1465;1473;1481;2456;1480 <br />log2FC: 0.06 <br />FDR: 0.82361702 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK","Treatment: Camptothecin <br />Position: 1465;1473;1481;2456;1480 <br />log2FC: 0.14 <br />FDR: 0.30049945 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK","Treatment: Etoposide <br />Position: 1465;1473;1481;2456;1480 <br />log2FC: 0.14 <br />FDR: 0.22473928 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK","Treatment: Formaldehyd <br />Position: 1465;1473;1481;2456;1480 <br />log2FC: 0.11 <br />FDR: 0.40860177 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK","Treatment: Gemcitabine <br />Position: 1465;1473;1481;2456;1480 <br />log2FC: 0.11 <br />FDR: 0.54911077 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK","Treatment: Hydrogen peroxide <br />Position: 1465;1473;1481;2456;1480 <br />log2FC: -0.09 <br />FDR: 0.43140442 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK","Treatment: Hydroxyurea <br />Position: 1465;1473;1481;2456;1480 <br />log2FC: 0.05 <br />FDR: 0.73405013 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK","Treatment: Methyl methanesulfonate <br />Position: 1465;1473;1481;2456;1480 <br />log2FC: 0 <br />FDR: 0.99705403 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK","Treatment: Sodium Arsenite <br />Position: 1465;1473;1481;2456;1480 <br />log2FC: -0.02 <br />FDR: 0.83489653 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK","Treatment: UV-C <br />Position: 1465;1473;1481;2456;1480 <br />log2FC: 0.13 <br />FDR: 0.51889540 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK","Treatment: X-ray <br />Position: 1465;1473;1481;2456;1480 <br />log2FC: 0.04 <br />FDR: 0.75655956 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK"],["Treatment: Aphidicolin <br />Position: 1463;1471;1479;2454;1478 <br />log2FC: -0.26 <br />FDR: 0.00914926 <br />Sequence window: DS(0.111)LIT(0.889)PHVS(1)R","Treatment: Camptothecin <br />Position: 1463;1471;1479;2454;1478 <br />log2FC: -0.34 <br />FDR: 0.00019742 <br />Sequence window: DS(0.111)LIT(0.889)PHVS(1)R","Treatment: Etoposide <br />Position: 1463;1471;1479;2454;1478 <br />log2FC: -0.35 <br />FDR: 9.1715e-05 <br />Sequence window: DS(0.111)LIT(0.889)PHVS(1)R","Treatment: Formaldehyd <br />Position: 1463;1471;1479;2454;1478 <br />log2FC: -0.2 <br />FDR: 0.02585465 <br />Sequence window: DS(0.111)LIT(0.889)PHVS(1)R","Treatment: Gemcitabine <br />Position: 1463;1471;1479;2454;1478 <br />log2FC: -0.27 <br />FDR: 0.00663785 <br />Sequence window: DS(0.111)LIT(0.889)PHVS(1)R","Treatment: Hydrogen peroxide <br />Position: 1463;1471;1479;2454;1478 <br />log2FC: -0.12 <br />FDR: 0.23670233 <br />Sequence window: DS(0.111)LIT(0.889)PHVS(1)R","Treatment: Hydroxyurea <br />Position: 1463;1471;1479;2454;1478 <br />log2FC: -0.13 <br />FDR: 0.28761324 <br />Sequence window: DS(0.111)LIT(0.889)PHVS(1)R","Treatment: Methyl methanesulfonate <br />Position: 1463;1471;1479;2454;1478 <br />log2FC: -0.22 <br />FDR: 0.00823067 <br />Sequence window: DS(0.111)LIT(0.889)PHVS(1)R","Treatment: Sodium Arsenite <br />Position: 1463;1471;1479;2454;1478 <br />log2FC: -0.08 <br />FDR: 0.35136586 <br />Sequence window: DS(0.111)LIT(0.889)PHVS(1)R","Treatment: UV-C <br />Position: 1463;1471;1479;2454;1478 <br />log2FC: 0.02 <br />FDR: 0.95035158 <br />Sequence window: DS(0.111)LIT(0.889)PHVS(1)R","Treatment: X-ray <br />Position: 1463;1471;1479;2454;1478 <br />log2FC: -0.3 <br />FDR: 0.00113759 <br />Sequence window: DS(0.111)LIT(0.889)PHVS(1)R"],["Treatment: Aphidicolin <br />Position: 1459;1467;1475;2450;1474 <br />log2FC: -0.26 <br />FDR: 0.00914926 <br />Sequence window: DSLIT(1)PHVSR","Treatment: Camptothecin <br />Position: 1459;1467;1475;2450;1474 <br />log2FC: -0.34 <br />FDR: 0.00019742 <br />Sequence window: DSLIT(1)PHVSR","Treatment: Etoposide <br />Position: 1459;1467;1475;2450;1474 <br />log2FC: -0.35 <br />FDR: 9.1715e-05 <br />Sequence window: DSLIT(1)PHVSR","Treatment: Formaldehyd <br />Position: 1459;1467;1475;2450;1474 <br />log2FC: -0.2 <br />FDR: 0.02585465 <br />Sequence window: DSLIT(1)PHVSR","Treatment: Gemcitabine <br />Position: 1459;1467;1475;2450;1474 <br />log2FC: -0.27 <br />FDR: 0.00663785 <br />Sequence window: DSLIT(1)PHVSR","Treatment: Hydrogen peroxide <br />Position: 1459;1467;1475;2450;1474 <br />log2FC: 0.08 <br />FDR: 0.35706843 <br />Sequence window: DSLIT(1)PHVSR","Treatment: Hydroxyurea <br />Position: 1459;1467;1475;2450;1474 <br />log2FC: -0.45 <br />FDR: 0.06506915 <br />Sequence window: DSLIT(1)PHVSR","Treatment: Methyl methanesulfonate <br />Position: 1459;1467;1475;2450;1474 <br />log2FC: -0.22 <br />FDR: 0.00823067 <br />Sequence window: DSLIT(1)PHVSR","Treatment: Sodium Arsenite <br />Position: 1459;1467;1475;2450;1474 <br />log2FC: -0.08 <br />FDR: 0.35136586 <br />Sequence window: DSLIT(1)PHVSR","Treatment: UV-C <br />Position: 1459;1467;1475;2450;1474 <br />log2FC: 0.11 <br />FDR: 0.84149157 <br />Sequence window: DSLIT(1)PHVSR","Treatment: X-ray <br />Position: 1459;1467;1475;2450;1474 <br />log2FC: -0.3 <br />FDR: 0.00113759 <br />Sequence window: DSLIT(1)PHVSR"],["Treatment: Aphidicolin <br />Position: 1306;1314;1322;2297 <br />log2FC: 0.15 <br />FDR: 0.68201831 <br />Sequence window: LNQSGTSVGTDEES(0.999)DVT(0.001)QEEER","Treatment: Camptothecin <br />Position: 1306;1314;1322;2297 <br />log2FC: 0.29 <br />FDR: 0.21996990 <br />Sequence window: LNQSGTSVGTDEES(0.999)DVT(0.001)QEEER","Treatment: Etoposide <br />Position: 1306;1314;1322;2297 <br />log2FC: 0.24 <br />FDR: 0.24470910 <br />Sequence window: LNQSGTSVGTDEES(0.999)DVT(0.001)QEEER","Treatment: Formaldehyd <br />Position: 1306;1314;1322;2297 <br />log2FC: -0.03 <br />FDR: 0.94433353 <br />Sequence window: LNQSGTSVGTDEES(0.999)DVT(0.001)QEEER","Treatment: Gemcitabine <br />Position: 1306;1314;1322;2297 <br />log2FC: 0.1 <br />FDR: 0.82188500 <br />Sequence window: LNQSGTSVGTDEES(0.999)DVT(0.001)QEEER","Treatment: Hydrogen peroxide <br />Position: 1306;1314;1322;2297 <br />log2FC: 0.12 <br />FDR: 0.57438406 <br />Sequence window: LNQSGTSVGTDEES(0.999)DVT(0.001)QEEER","Treatment: Hydroxyurea <br />Position: 1306;1314;1322;2297 <br />log2FC: -0.22 <br />FDR: 0.38796141 <br />Sequence window: LNQSGTSVGTDEES(0.999)DVT(0.001)QEEER","Treatment: Methyl methanesulfonate <br />Position: 1306;1314;1322;2297 <br />log2FC: -0.32 <br />FDR: 0.15073287 <br />Sequence window: LNQSGTSVGTDEES(0.999)DVT(0.001)QEEER","Treatment: Sodium Arsenite <br />Position: 1306;1314;1322;2297 <br />log2FC: 0.04 <br />FDR: 0.83672185 <br />Sequence window: LNQSGTSVGTDEES(0.999)DVT(0.001)QEEER","Treatment: UV-C <br />Position: 1306;1314;1322;2297 <br />log2FC: 0.23 <br />FDR: 0.51554800 <br />Sequence window: LNQSGTSVGTDEES(0.999)DVT(0.001)QEEER","Treatment: X-ray <br />Position: 1306;1314;1322;2297 <br />log2FC: -0.08 <br />FDR: 0.76375432 <br />Sequence window: LNQSGTSVGTDEES(0.999)DVT(0.001)QEEER"],["Treatment: Aphidicolin <br />Position: 1302;1310;1318;2293 <br />log2FC: 0.3 <br />FDR: 0.09004074 <br />Sequence window: LNQSGTSVGT(1)DEESDVTQEEER","Treatment: Camptothecin <br />Position: 1302;1310;1318;2293 <br />log2FC: 0.28 <br />FDR: 0.07639829 <br />Sequence window: LNQSGTSVGT(1)DEESDVTQEEER","Treatment: Etoposide <br />Position: 1302;1310;1318;2293 <br />log2FC: 0.17 <br />FDR: 0.33803917 <br />Sequence window: LNQSGTSVGT(1)DEESDVTQEEER","Treatment: Formaldehyd <br />Position: 1302;1310;1318;2293 <br />log2FC: -0.04 <br />FDR: 0.83657007 <br />Sequence window: LNQSGTSVGT(1)DEESDVTQEEER","Treatment: Gemcitabine <br />Position: 1302;1310;1318;2293 <br />log2FC: 0.22 <br />FDR: 0.34341521 <br />Sequence window: LNQSGTSVGT(1)DEESDVTQEEER","Treatment: Hydrogen peroxide <br />Position: 1302;1310;1318;2293 <br />log2FC: 0.13 <br />FDR: 0.44839213 <br />Sequence window: LNQSGTSVGT(1)DEESDVTQEEER","Treatment: Hydroxyurea <br />Position: 1302;1310;1318;2293 <br />log2FC: 0.14 <br />FDR: 0.43818757 <br />Sequence window: LNQSGTSVGT(1)DEESDVTQEEER","Treatment: Methyl methanesulfonate <br />Position: 1302;1310;1318;2293 <br />log2FC: 0.11 <br />FDR: 0.54587947 <br />Sequence window: LNQSGTSVGT(1)DEESDVTQEEER","Treatment: Sodium Arsenite <br />Position: 1302;1310;1318;2293 <br />log2FC: -0.25 <br />FDR: 0.09229779 <br />Sequence window: LNQSGTSVGT(1)DEESDVTQEEER","Treatment: UV-C <br />Position: 1302;1310;1318;2293 <br />log2FC: 0.15 <br />FDR: 0.65604967 <br />Sequence window: LNQSGTSVGT(1)DEESDVTQEEER","Treatment: X-ray <br />Position: 1302;1310;1318;2293 <br />log2FC: 0.03 <br />FDR: 0.89374503 <br />Sequence window: LNQSGTSVGT(1)DEESDVTQEEER"],["Treatment: Aphidicolin <br />Position: 1162;1170;1178;2153;1177 <br />log2FC: -1.29 <br />FDR: 1.4843e-08 <br />Sequence window: LLLDIPLQT(1)PHK","Treatment: Camptothecin <br />Position: 1162;1170;1178;2153;1177 <br />log2FC: -0.93 <br />FDR: 1.8095e-06 <br />Sequence window: LLLDIPLQT(1)PHK","Treatment: Etoposide <br />Position: 1162;1170;1178;2153;1177 <br />log2FC: -1.57 <br />FDR: 2.0057e-11 <br />Sequence window: LLLDIPLQT(1)PHK","Treatment: Formaldehyd <br />Position: 1162;1170;1178;2153;1177 <br />log2FC: -0.48 <br />FDR: 0.00600371 <br />Sequence window: LLLDIPLQT(1)PHK","Treatment: Gemcitabine <br />Position: 1162;1170;1178;2153;1177 <br />log2FC: -0.98 <br />FDR: 2.1382e-06 <br />Sequence window: LLLDIPLQT(1)PHK","Treatment: Hydrogen peroxide <br />Position: 1162;1170;1178;2153;1177 <br />log2FC: -0.36 <br />FDR: 0.02529817 <br />Sequence window: LLLDIPLQT(1)PHK","Treatment: Hydroxyurea <br />Position: 1162;1170;1178;2153;1177 <br />log2FC: -0.21 <br />FDR: 0.31751913 <br />Sequence window: LLLDIPLQT(1)PHK","Treatment: Methyl methanesulfonate <br />Position: 1162;1170;1178;2153;1177 <br />log2FC: -1.25 <br />FDR: 3.6571e-09 <br />Sequence window: LLLDIPLQT(1)PHK","Treatment: Sodium Arsenite <br />Position: 1162;1170;1178;2153;1177 <br />log2FC: 0.49 <br />FDR: 0.00177481 <br />Sequence window: LLLDIPLQT(1)PHK","Treatment: UV-C <br />Position: 1162;1170;1178;2153;1177 <br />log2FC: -0.04 <br />FDR: 0.95385470 <br />Sequence window: LLLDIPLQT(1)PHK","Treatment: X-ray <br />Position: 1162;1170;1178;2153;1177 <br />log2FC: -1.38 <br />FDR: 1.1516e-09 <br />Sequence window: LLLDIPLQT(1)PHK"],["Treatment: Aphidicolin <br />Position: 1002;1010;1018;1993;1017 <br />log2FC: -0.22 <br />FDR: 0.09370044 <br />Sequence window: ANT(0.083)S(0.917)GDFEK","Treatment: Camptothecin <br />Position: 1002;1010;1018;1993;1017 <br />log2FC: -0.25 <br />FDR: 0.02993717 <br />Sequence window: ANT(0.083)S(0.917)GDFEK","Treatment: Etoposide <br />Position: 1002;1010;1018;1993;1017 <br />log2FC: -0.73 <br />FDR: 8.7462e-09 <br />Sequence window: ANT(0.083)S(0.917)GDFEK","Treatment: Formaldehyd <br />Position: 1002;1010;1018;1993;1017 <br />log2FC: -0.69 <br />FDR: 1.0665e-07 <br />Sequence window: ANT(0.083)S(0.917)GDFEK","Treatment: Gemcitabine <br />Position: 1002;1010;1018;1993;1017 <br />log2FC: -0.24 <br />FDR: 0.07240826 <br />Sequence window: ANT(0.083)S(0.917)GDFEK","Treatment: Hydrogen peroxide <br />Position: 1002;1010;1018;1993;1017 <br />log2FC: -0.44 <br />FDR: 4.6507e-05 <br />Sequence window: ANT(0.083)S(0.917)GDFEK","Treatment: Hydroxyurea <br />Position: 1002;1010;1018;1993;1017 <br />log2FC: -0.04 <br />FDR: 0.80943209 <br />Sequence window: ANT(0.083)S(0.917)GDFEK","Treatment: Methyl methanesulfonate <br />Position: 1002;1010;1018;1993;1017 <br />log2FC: -0.56 <br />FDR: 1.2673e-06 <br />Sequence window: ANT(0.083)S(0.917)GDFEK","Treatment: Sodium Arsenite <br />Position: 1002;1010;1018;1993;1017 <br />log2FC: -0.4 <br />FDR: 8.6683e-05 <br />Sequence window: ANT(0.083)S(0.917)GDFEK","Treatment: UV-C <br />Position: 1002;1010;1018;1993;1017 <br />log2FC: 0.14 <br />FDR: 0.46016768 <br />Sequence window: ANT(0.083)S(0.917)GDFEK","Treatment: X-ray <br />Position: 1002;1010;1018;1993;1017 <br />log2FC: -0.57 <br />FDR: 2.8001e-06 <br />Sequence window: ANT(0.083)S(0.917)GDFEK"],["Treatment: Aphidicolin <br />Position: 1001;1009;1017;1992;1016 <br />log2FC: -0.14 <br />FDR: 0.41519257 <br />Sequence window: ANT(0.879)S(0.121)GDFEK","Treatment: Camptothecin <br />Position: 1001;1009;1017;1992;1016 <br />log2FC: -0.26 <br />FDR: 0.03145413 <br />Sequence window: ANT(0.879)S(0.121)GDFEK","Treatment: Etoposide <br />Position: 1001;1009;1017;1992;1016 <br />log2FC: -0.67 <br />FDR: 2.1290e-07 <br />Sequence window: ANT(0.879)S(0.121)GDFEK","Treatment: Formaldehyd <br />Position: 1001;1009;1017;1992;1016 <br />log2FC: -0.61 <br />FDR: 2.6753e-06 <br />Sequence window: ANT(0.879)S(0.121)GDFEK","Treatment: Gemcitabine <br />Position: 1001;1009;1017;1992;1016 <br />log2FC: -0.15 <br />FDR: 0.36078325 <br />Sequence window: ANT(0.879)S(0.121)GDFEK","Treatment: Hydrogen peroxide <br />Position: 1001;1009;1017;1992;1016 <br />log2FC: -0.4 <br />FDR: 0.00033551 <br />Sequence window: ANT(0.879)S(0.121)GDFEK","Treatment: Hydroxyurea <br />Position: 1001;1009;1017;1992;1016 <br />log2FC: 0.02 <br />FDR: 0.94130296 <br />Sequence window: ANT(0.879)S(0.121)GDFEK","Treatment: Methyl methanesulfonate <br />Position: 1001;1009;1017;1992;1016 <br />log2FC: -0.59 <br />FDR: 1.9843e-06 <br />Sequence window: ANT(0.879)S(0.121)GDFEK","Treatment: Sodium Arsenite <br />Position: 1001;1009;1017;1992;1016 <br />log2FC: -0.37 <br />FDR: 0.00055589 <br />Sequence window: ANT(0.879)S(0.121)GDFEK","Treatment: UV-C <br />Position: 1001;1009;1017;1992;1016 <br />log2FC: 0.08 <br />FDR: 0.76432319 <br />Sequence window: ANT(0.879)S(0.121)GDFEK","Treatment: X-ray <br />Position: 1001;1009;1017;1992;1016 <br />log2FC: -0.53 <br />FDR: 2.5165e-05 <br />Sequence window: ANT(0.879)S(0.121)GDFEK"],["Treatment: Aphidicolin <br />Position: 881;889;897;896;896 <br />log2FC: -0.26 <br />FDR: 0.59319687 <br />Sequence window: PAANVT(1)PTK","Treatment: Camptothecin <br />Position: 881;889;897;896;896 <br />log2FC: -0.35 <br />FDR: 0.23088546 <br />Sequence window: PAANVT(1)PTK","Treatment: Etoposide <br />Position: 881;889;897;896;896 <br />log2FC: -0.97 <br />FDR: 0.00031259 <br />Sequence window: PAANVT(1)PTK","Treatment: Formaldehyd <br />Position: 881;889;897;896;896 <br />log2FC: -0.92 <br />FDR: 0.00180434 <br />Sequence window: PAANVT(1)PTK","Treatment: Gemcitabine <br />Position: 881;889;897;896;896 <br />log2FC: -0.27 <br />FDR: 0.55042797 <br />Sequence window: PAANVT(1)PTK","Treatment: Hydrogen peroxide <br />Position: 881;889;897;896;896 <br />log2FC: -0.62 <br />FDR: 0.01057408 <br />Sequence window: PAANVT(1)PTK","Treatment: Hydroxyurea <br />Position: 881;889;897;896;896 <br />log2FC: -0.29 <br />FDR: 0.36085962 <br />Sequence window: PAANVT(1)PTK","Treatment: Methyl methanesulfonate <br />Position: 881;889;897;896;896 <br />log2FC: -0.8 <br />FDR: 0.00444042 <br />Sequence window: PAANVT(1)PTK","Treatment: Sodium Arsenite <br />Position: 881;889;897;896;896 <br />log2FC: 0.21 <br />FDR: 0.43143636 <br />Sequence window: PAANVT(1)PTK","Treatment: UV-C <br />Position: 881;889;897;896;896 <br />log2FC: -0.38 <br />FDR: 0.32308303 <br />Sequence window: PAANVT(1)PTK","Treatment: X-ray <br />Position: 881;889;897;896;896 <br />log2FC: -0.28 <br />FDR: 0.36005863 <br />Sequence window: PAANVT(1)PTK"],["Treatment: Aphidicolin <br />Position: 790;798 <br />log2FC: -0.15 <br />FDR: 0.63111706 <br />Sequence window: Y(0.195)S(0.805)PKT(1)PPR","Treatment: Camptothecin <br />Position: 790;798 <br />log2FC: -0.22 <br />FDR: 0.29251949 <br />Sequence window: Y(0.195)S(0.805)PKT(1)PPR","Treatment: Etoposide <br />Position: 790;798 <br />log2FC: -0.05 <br />FDR: 0.83052006 <br />Sequence window: Y(0.195)S(0.805)PKT(1)PPR","Treatment: Formaldehyd <br />Position: 790;798 <br />log2FC: -0.22 <br />FDR: 0.25106155 <br />Sequence window: Y(0.195)S(0.805)PKT(1)PPR","Treatment: Gemcitabine <br />Position: 790;798 <br />log2FC: -0.04 <br />FDR: 0.92605707 <br />Sequence window: Y(0.195)S(0.805)PKT(1)PPR","Treatment: Hydrogen peroxide <br />Position: 790;798 <br />log2FC: -0.3 <br />FDR: 0.06656875 <br />Sequence window: Y(0.195)S(0.805)PKT(1)PPR","Treatment: Hydroxyurea <br />Position: 790;798 <br />log2FC: 0.26 <br />FDR: 0.22704498 <br />Sequence window: Y(0.195)S(0.805)PKT(1)PPR","Treatment: Methyl methanesulfonate <br />Position: 790;798 <br />log2FC: -0.09 <br />FDR: 0.66410892 <br />Sequence window: Y(0.195)S(0.805)PKT(1)PPR","Treatment: Sodium Arsenite <br />Position: 790;798 <br />log2FC: -0.31 <br />FDR: 0.04590426 <br />Sequence window: Y(0.195)S(0.805)PKT(1)PPR","Treatment: UV-C <br />Position: 790;798 <br />log2FC: -0.08 <br />FDR: 0.86173216 <br />Sequence window: Y(0.195)S(0.805)PKT(1)PPR","Treatment: X-ray <br />Position: 790;798 <br />log2FC: 0.06 <br />FDR: 0.77224899 <br />Sequence window: Y(0.195)S(0.805)PKT(1)PPR"],["Treatment: Aphidicolin <br />Position: 787;795;797;796 <br />log2FC: -0.15 <br />FDR: 0.63111706 <br />Sequence window: S(0.005)Y(0.001)KY(0.013)S(0.981)PK","Treatment: Camptothecin <br />Position: 787;795;797;796 <br />log2FC: -0.27 <br />FDR: 0.28307337 <br />Sequence window: S(0.005)Y(0.001)KY(0.013)S(0.981)PK","Treatment: Etoposide <br />Position: 787;795;797;796 <br />log2FC: -0.05 <br />FDR: 0.85171092 <br />Sequence window: S(0.005)Y(0.001)KY(0.013)S(0.981)PK","Treatment: Formaldehyd <br />Position: 787;795;797;796 <br />log2FC: -0.22 <br />FDR: 0.25106155 <br />Sequence window: S(0.005)Y(0.001)KY(0.013)S(0.981)PK","Treatment: Gemcitabine <br />Position: 787;795;797;796 <br />log2FC: 0.07 <br />FDR: 0.87297836 <br />Sequence window: S(0.005)Y(0.001)KY(0.013)S(0.981)PK","Treatment: Hydrogen peroxide <br />Position: 787;795;797;796 <br />log2FC: -0.3 <br />FDR: 0.06656875 <br />Sequence window: S(0.005)Y(0.001)KY(0.013)S(0.981)PK","Treatment: Hydroxyurea <br />Position: 787;795;797;796 <br />log2FC: 0.26 <br />FDR: 0.22704498 <br />Sequence window: S(0.005)Y(0.001)KY(0.013)S(0.981)PK","Treatment: Methyl methanesulfonate <br />Position: 787;795;797;796 <br />log2FC: -0.09 <br />FDR: 0.66410892 <br />Sequence window: S(0.005)Y(0.001)KY(0.013)S(0.981)PK","Treatment: Sodium Arsenite <br />Position: 787;795;797;796 <br />log2FC: -0.31 <br />FDR: 0.04590426 <br />Sequence window: S(0.005)Y(0.001)KY(0.013)S(0.981)PK","Treatment: UV-C <br />Position: 787;795;797;796 <br />log2FC: -0.08 <br />FDR: 0.86173216 <br />Sequence window: S(0.005)Y(0.001)KY(0.013)S(0.981)PK","Treatment: X-ray <br />Position: 787;795;797;796 <br />log2FC: 0.06 <br />FDR: 0.77224899 <br />Sequence window: S(0.005)Y(0.001)KY(0.013)S(0.981)PK"],["Treatment: Aphidicolin <br />Position: 779;787;789;788 <br />log2FC: -0.22 <br />FDR: 0.01034519 <br />Sequence window: YS(0.001)LS(0.998)PS(0.001)K","Treatment: Camptothecin <br />Position: 779;787;789;788 <br />log2FC: -0.28 <br />FDR: 0.00041674 <br />Sequence window: YS(0.001)LS(0.998)PS(0.001)K","Treatment: Etoposide <br />Position: 779;787;789;788 <br />log2FC: -0.36 <br />FDR: 7.6332e-06 <br />Sequence window: YS(0.001)LS(0.998)PS(0.001)K","Treatment: Formaldehyd <br />Position: 779;787;789;788 <br />log2FC: -0.23 <br />FDR: 0.00281694 <br />Sequence window: YS(0.001)LS(0.998)PS(0.001)K","Treatment: Gemcitabine <br />Position: 779;787;789;788 <br />log2FC: -0.16 <br />FDR: 0.08580882 <br />Sequence window: YS(0.001)LS(0.998)PS(0.001)K","Treatment: Hydrogen peroxide <br />Position: 779;787;789;788 <br />log2FC: -0.28 <br />FDR: 0.00022745 <br />Sequence window: YS(0.001)LS(0.998)PS(0.001)K","Treatment: Hydroxyurea <br />Position: 779;787;789;788 <br />log2FC: -0.03 <br />FDR: 0.83323068 <br />Sequence window: YS(0.001)LS(0.998)PS(0.001)K","Treatment: Methyl methanesulfonate <br />Position: 779;787;789;788 <br />log2FC: -0.3 <br />FDR: 0.00011334 <br />Sequence window: YS(0.001)LS(0.998)PS(0.001)K","Treatment: Sodium Arsenite <br />Position: 779;787;789;788 <br />log2FC: -0.59 <br />FDR: 2.3139e-10 <br />Sequence window: YS(0.001)LS(0.998)PS(0.001)K","Treatment: UV-C <br />Position: 779;787;789;788 <br />log2FC: -0.14 <br />FDR: 0.17603090 <br />Sequence window: YS(0.001)LS(0.998)PS(0.001)K","Treatment: X-ray <br />Position: 779;787;789;788 <br />log2FC: -0.15 <br />FDR: 0.04975541 <br />Sequence window: YS(0.001)LS(0.998)PS(0.001)K"],["Treatment: Aphidicolin <br />Position: 119;127;128;128;128 <br />log2FC: 0.02 <br />FDR: 0.97295108 <br />Sequence window: LFPGS(1)PAIYK","Treatment: Camptothecin <br />Position: 119;127;128;128;128 <br />log2FC: -0.05 <br />FDR: 0.85810453 <br />Sequence window: LFPGS(1)PAIYK","Treatment: Etoposide <br />Position: 119;127;128;128;128 <br />log2FC: -0.55 <br />FDR: 0.00059097 <br />Sequence window: LFPGS(1)PAIYK","Treatment: Formaldehyd <br />Position: 119;127;128;128;128 <br />log2FC: 0.09 <br />FDR: 0.69224069 <br />Sequence window: LFPGS(1)PAIYK","Treatment: Gemcitabine <br />Position: 119;127;128;128;128 <br />log2FC: -0.37 <br />FDR: 0.08291560 <br />Sequence window: LFPGS(1)PAIYK","Treatment: Hydrogen peroxide <br />Position: 119;127;128;128;128 <br />log2FC: -0.44 <br />FDR: 0.00276876 <br />Sequence window: LFPGS(1)PAIYK","Treatment: Hydroxyurea <br />Position: 119;127;128;128;128 <br />log2FC: -0.16 <br />FDR: 0.41434535 <br />Sequence window: LFPGS(1)PAIYK","Treatment: Methyl methanesulfonate <br />Position: 119;127;128;128;128 <br />log2FC: -0.11 <br />FDR: 0.57465801 <br />Sequence window: LFPGS(1)PAIYK","Treatment: Sodium Arsenite <br />Position: 119;127;128;128;128 <br />log2FC: 0.23 <br />FDR: 0.13463902 <br />Sequence window: LFPGS(1)PAIYK","Treatment: UV-C <br />Position: 119;127;128;128;128 <br />log2FC: -0.12 <br />FDR: 0.72588657 <br />Sequence window: LFPGS(1)PAIYK","Treatment: X-ray <br />Position: 119;127;128;128;128 <br />log2FC: -0.45 <br />FDR: 0.01206203 <br />Sequence window: LFPGS(1)PAIYK"]],"colorscale":[[0,"#DC3220"],[0.0922330097087379,"#E65239"],[0.135922330097087,"#EA5F45"],[0.155339805825243,"#EC644B"],[0.286407766990291,"#F6886F"],[0.29126213592233,"#F68971"],[0.310679611650485,"#F88E76"],[0.315533980582524,"#F88F78"],[0.37378640776699,"#FB9E88"],[0.407766990291262,"#FDA692"],[0.427184466019418,"#FEAB98"],[0.436893203883495,"#FEAE9B"],[0.461165048543689,"#FFB4A2"],[0.466019417475728,"#FFB5A3"],[0.475728155339806,"#FFB7A6"],[0.485436893203884,"#FFBAA9"],[0.490291262135922,"#FFBBAB"],[0.495145631067961,"#FFBCAC"],[0.504854368932039,"#FFBFAF"],[0.509708737864078,"#FFC0B1"],[0.514563106796116,"#FFC1B2"],[0.529126213592233,"#FFC5B6"],[0.54368932038835,"#FFC8BB"],[0.548543689320388,"#FFCABC"],[0.553398058252427,"#FFCBBE"],[0.567961165048544,"#FFCEC2"],[0.577669902912621,"#FFD1C5"],[0.58252427184466,"#FFD2C7"],[0.587378640776699,"#FFD3C8"],[0.592233009708738,"#FFD5CA"],[0.597087378640777,"#FFD6CB"],[0.606796116504854,"#FFD8CE"],[0.611650485436893,"#FFD9D0"],[0.616504854368932,"#FFDBD1"],[0.621359223300971,"#FFDCD3"],[0.62621359223301,"#FFDDD4"],[0.631067961165049,"#FFDED6"],[0.635922330097087,"#FFDFD7"],[0.640776699029126,"#FFE1D9"],[0.645631067961165,"#FFE2DA"],[0.650485436893204,"#FFE3DC"],[0.655339805825243,"#FFE4DD"],[0.660194174757282,"#FFE6DF"],[0.66504854368932,"#FFE7E0"],[0.669902912621359,"#FFE8E2"],[0.674757281553398,"#FFE9E3"],[0.679611650485437,"#FFEAE5"],[0.684466019417476,"#FFECE6"],[0.689320388349515,"#FFEDE8"],[0.694174757281553,"#FFEEE9"],[0.699029126213592,"#FFEFEB"],[0.703883495145631,"#FFF0EC"],[0.70873786407767,"#FFF2EE"],[0.713592233009709,"#FFF3F0"],[0.718446601941748,"#FFF4F1"],[0.723300970873786,"#FFF5F3"],[0.733009708737864,"#FFF8F6"],[0.737864077669903,"#FFF9F7"],[0.742718446601942,"#FFFAF9"],[0.747572815533981,"#FFFBFA"],[0.752427184466019,"#FFFDFC"],[0.757281553398058,"#FFFEFD"],[0.762135922330097,"#FFFFFF"],[0.766990291262136,"#FEFEFF"],[0.771844660194175,"#FCFDFE"],[0.776699029126214,"#FBFCFE"],[0.781553398058252,"#FAFAFD"],[0.786407766990291,"#F9F9FD"],[0.79126213592233,"#F7F8FC"],[0.796116504854369,"#F6F7FC"],[0.800970873786408,"#F5F6FB"],[0.805825242718447,"#F4F5FB"],[0.810679611650486,"#F2F4FA"],[0.815533980582524,"#F1F2FA"],[0.820388349514563,"#F0F1FA"],[0.825242718446602,"#EFF0F9"],[0.830097087378641,"#EDEFF9"],[0.83495145631068,"#ECEEF8"],[0.844660194174757,"#EAECF7"],[0.864077669902913,"#E5E7F5"],[0.868932038834951,"#E3E6F5"],[0.87378640776699,"#E2E5F5"],[0.878640776699029,"#E1E4F4"],[0.888349514563107,"#DEE1F3"],[0.898058252427185,"#DCDFF2"],[0.902912621359223,"#DADEF2"],[0.907766990291262,"#D9DDF1"],[1,"#C1C8E8"]],"type":"heatmap","showscale":false,"autocolorscale":false,"showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11],"y":[12,11,10,17,9,8,7,6,5,4,3,2,1,16,15,14,13,12,11,10,17,9,8,7,6,5,4,3,2,1,16,15,14,13,12,11,10,17,9,8,7,6,5,4,3,2,1,16,15,14,13,12,11,10,17,9,8,7,6,5,4,3,2,1,16,15,14,13,12,11,10,17,9,8,7,6,5,4,3,2,1,16,15,14,13,12,11,10,17,9,8,7,6,5,4,3,2,1,16,15,14,13,12,11,10,17,9,8,7,6,5,4,3,2,1,16,15,14,13,12,11,10,17,9,8,7,6,5,4,3,2,1,16,15,14,13,12,11,10,17,9,8,7,6,5,4,3,2,1,16,15,14,13,12,11,10,17,9,8,7,6,5,4,3,2,1,16,15,14,13,12,11,10,17,9,8,7,6,5,4,3,2,1,16,15,14,13],"text":["","","***","","","","**","**","","","","","","*","","","","*","*","***","","","","***","***","","","","***","","***","","","","***","***","***","***","","","***","***","","","**","***","***","***","","","***","***","***","**","","","","*","*","","","","**","***","**","","","**","","","***","","","","**","**","","","","*","","","","","","***","***","*","**","","","","","","*","","","***","***","","","*","","","","","","","","","","","","","","","","","","***","***","***","","","","**","**","","","**","***","***","***","","","**","***","***","**","","","","","","","*","**","**","***","***","*","*","","","","","","","","","","","","","","","","","","","***","***","***","*","","","**","**","","","*","***","*","*","","",""],"hovertext":["Treatment: Aphidicolin <br />Position: 1001;1009;1017;1992;1016 <br />log2FC: -0.14 <br />FDR: 0.41519257 <br />Sequence window: ANT(0.879)S(0.121)GDFEK","Treatment: Aphidicolin <br />Position: 1002;1010;1018;1993;1017 <br />log2FC: -0.22 <br />FDR: 0.09370044 <br />Sequence window: ANT(0.083)S(0.917)GDFEK","Treatment: Aphidicolin <br />Position: 1162;1170;1178;2153;1177 <br />log2FC: -1.29 <br />FDR: 1.4843e-08 <br />Sequence window: LLLDIPLQT(1)PHK","Treatment: Aphidicolin <br />Position: 119;127;128;128;128 <br />log2FC: 0.02 <br />FDR: 0.97295108 <br />Sequence window: LFPGS(1)PAIYK","Treatment: Aphidicolin <br />Position: 1302;1310;1318;2293 <br />log2FC: 0.3 <br />FDR: 0.09004074 <br />Sequence window: LNQSGTSVGT(1)DEESDVTQEEER","Treatment: Aphidicolin <br />Position: 1306;1314;1322;2297 <br />log2FC: 0.15 <br />FDR: 0.68201831 <br />Sequence window: LNQSGTSVGTDEES(0.999)DVT(0.001)QEEER","Treatment: Aphidicolin <br />Position: 1459;1467;1475;2450;1474 <br />log2FC: -0.26 <br />FDR: 0.00914926 <br />Sequence window: DSLIT(1)PHVSR","Treatment: Aphidicolin <br />Position: 1463;1471;1479;2454;1478 <br />log2FC: -0.26 <br />FDR: 0.00914926 <br />Sequence window: DS(0.111)LIT(0.889)PHVS(1)R","Treatment: Aphidicolin <br />Position: 1465;1473;1481;2456;1480 <br />log2FC: 0.06 <br />FDR: 0.82361702 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK","Treatment: Aphidicolin <br />Position: 1466;1474;1482;2457;1481 <br />log2FC: 0.02 <br />FDR: 0.93670626 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK","Treatment: Aphidicolin <br />Position: 1467;1475;1483;2458;1482 <br />log2FC: -0.09 <br />FDR: 0.42302799 <br />Sequence window: S(0.423)S(0.58)T(0.989)PRES(0.007)PCGK","Treatment: Aphidicolin <br />Position: 1471;1479;1487;2462;1486 <br />log2FC: -0.18 <br />FDR: 0.07584841 <br />Sequence window: S(0.068)S(0.088)T(0.845)PRES(1)PCGK","Treatment: Aphidicolin <br />Position: 1519;1527;1535;2510;1534 <br />log2FC: -0.17 <br />FDR: 0.22793756 <br />Sequence window: AVVS(1)PPK","Treatment: Aphidicolin <br />Position: 779;787;789;788 <br />log2FC: -0.22 <br />FDR: 0.01034519 <br />Sequence window: YS(0.001)LS(0.998)PS(0.001)K","Treatment: Aphidicolin <br />Position: 787;795;797;796 <br />log2FC: -0.15 <br />FDR: 0.63111706 <br />Sequence window: S(0.005)Y(0.001)KY(0.013)S(0.981)PK","Treatment: Aphidicolin <br />Position: 790;798 <br />log2FC: -0.15 <br />FDR: 0.63111706 <br />Sequence window: Y(0.195)S(0.805)PKT(1)PPR","Treatment: Aphidicolin <br />Position: 881;889;897;896;896 <br />log2FC: -0.26 <br />FDR: 0.59319687 <br />Sequence window: PAANVT(1)PTK","Treatment: Camptothecin <br />Position: 1001;1009;1017;1992;1016 <br />log2FC: -0.26 <br />FDR: 0.03145413 <br />Sequence window: ANT(0.879)S(0.121)GDFEK","Treatment: Camptothecin <br />Position: 1002;1010;1018;1993;1017 <br />log2FC: -0.25 <br />FDR: 0.02993717 <br />Sequence window: ANT(0.083)S(0.917)GDFEK","Treatment: Camptothecin <br />Position: 1162;1170;1178;2153;1177 <br />log2FC: -0.93 <br />FDR: 1.8095e-06 <br />Sequence window: LLLDIPLQT(1)PHK","Treatment: Camptothecin <br />Position: 119;127;128;128;128 <br />log2FC: -0.05 <br />FDR: 0.85810453 <br />Sequence window: LFPGS(1)PAIYK","Treatment: Camptothecin <br />Position: 1302;1310;1318;2293 <br />log2FC: 0.28 <br />FDR: 0.07639829 <br />Sequence window: LNQSGTSVGT(1)DEESDVTQEEER","Treatment: Camptothecin <br />Position: 1306;1314;1322;2297 <br />log2FC: 0.29 <br />FDR: 0.21996990 <br />Sequence window: LNQSGTSVGTDEES(0.999)DVT(0.001)QEEER","Treatment: Camptothecin <br />Position: 1459;1467;1475;2450;1474 <br />log2FC: -0.34 <br />FDR: 0.00019742 <br />Sequence window: DSLIT(1)PHVSR","Treatment: Camptothecin <br />Position: 1463;1471;1479;2454;1478 <br />log2FC: -0.34 <br />FDR: 0.00019742 <br />Sequence window: DS(0.111)LIT(0.889)PHVS(1)R","Treatment: Camptothecin <br />Position: 1465;1473;1481;2456;1480 <br />log2FC: 0.14 <br />FDR: 0.30049945 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK","Treatment: Camptothecin <br />Position: 1466;1474;1482;2457;1481 <br />log2FC: 0.06 <br />FDR: 0.63576900 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK","Treatment: Camptothecin <br />Position: 1467;1475;1483;2458;1482 <br />log2FC: -0.12 <br />FDR: 0.14261405 <br />Sequence window: S(0.423)S(0.58)T(0.989)PRES(0.007)PCGK","Treatment: Camptothecin <br />Position: 1471;1479;1487;2462;1486 <br />log2FC: -0.31 <br />FDR: 0.00037858 <br />Sequence window: S(0.068)S(0.088)T(0.845)PRES(1)PCGK","Treatment: Camptothecin <br />Position: 1519;1527;1535;2510;1534 <br />log2FC: -0.17 <br />FDR: 0.12853560 <br />Sequence window: AVVS(1)PPK","Treatment: Camptothecin <br />Position: 779;787;789;788 <br />log2FC: -0.28 <br />FDR: 0.00041674 <br />Sequence window: YS(0.001)LS(0.998)PS(0.001)K","Treatment: Camptothecin <br />Position: 787;795;797;796 <br />log2FC: -0.27 <br />FDR: 0.28307337 <br />Sequence window: S(0.005)Y(0.001)KY(0.013)S(0.981)PK","Treatment: Camptothecin <br />Position: 790;798 <br />log2FC: -0.22 <br />FDR: 0.29251949 <br />Sequence window: Y(0.195)S(0.805)PKT(1)PPR","Treatment: Camptothecin <br />Position: 881;889;897;896;896 <br />log2FC: -0.35 <br />FDR: 0.23088546 <br />Sequence window: PAANVT(1)PTK","Treatment: Etoposide <br />Position: 1001;1009;1017;1992;1016 <br />log2FC: -0.67 <br />FDR: 2.1290e-07 <br />Sequence window: ANT(0.879)S(0.121)GDFEK","Treatment: Etoposide <br />Position: 1002;1010;1018;1993;1017 <br />log2FC: -0.73 <br />FDR: 8.7462e-09 <br />Sequence window: ANT(0.083)S(0.917)GDFEK","Treatment: Etoposide <br />Position: 1162;1170;1178;2153;1177 <br />log2FC: -1.57 <br />FDR: 2.0057e-11 <br />Sequence window: LLLDIPLQT(1)PHK","Treatment: Etoposide <br />Position: 119;127;128;128;128 <br />log2FC: -0.55 <br />FDR: 0.00059097 <br />Sequence window: LFPGS(1)PAIYK","Treatment: Etoposide <br />Position: 1302;1310;1318;2293 <br />log2FC: 0.17 <br />FDR: 0.33803917 <br />Sequence window: LNQSGTSVGT(1)DEESDVTQEEER","Treatment: Etoposide <br />Position: 1306;1314;1322;2297 <br />log2FC: 0.24 <br />FDR: 0.24470910 <br />Sequence window: LNQSGTSVGTDEES(0.999)DVT(0.001)QEEER","Treatment: Etoposide <br />Position: 1459;1467;1475;2450;1474 <br />log2FC: -0.35 <br />FDR: 9.1715e-05 <br />Sequence window: DSLIT(1)PHVSR","Treatment: Etoposide <br />Position: 1463;1471;1479;2454;1478 <br />log2FC: -0.35 <br />FDR: 9.1715e-05 <br />Sequence window: DS(0.111)LIT(0.889)PHVS(1)R","Treatment: Etoposide <br />Position: 1465;1473;1481;2456;1480 <br />log2FC: 0.14 <br />FDR: 0.22473928 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK","Treatment: Etoposide <br />Position: 1466;1474;1482;2457;1481 <br />log2FC: 0.06 <br />FDR: 0.56291558 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK","Treatment: Etoposide <br />Position: 1467;1475;1483;2458;1482 <br />log2FC: -0.2 <br />FDR: 0.00821192 <br />Sequence window: S(0.423)S(0.58)T(0.989)PRES(0.007)PCGK","Treatment: Etoposide <br />Position: 1471;1479;1487;2462;1486 <br />log2FC: -0.51 <br />FDR: 7.3946e-08 <br />Sequence window: S(0.068)S(0.088)T(0.845)PRES(1)PCGK","Treatment: Etoposide <br />Position: 1519;1527;1535;2510;1534 <br />log2FC: -0.35 <br />FDR: 0.00073278 <br />Sequence window: AVVS(1)PPK","Treatment: Etoposide <br />Position: 779;787;789;788 <br />log2FC: -0.36 <br />FDR: 7.6332e-06 <br />Sequence window: YS(0.001)LS(0.998)PS(0.001)K","Treatment: Etoposide <br />Position: 787;795;797;796 <br />log2FC: -0.05 <br />FDR: 0.85171092 <br />Sequence window: S(0.005)Y(0.001)KY(0.013)S(0.981)PK","Treatment: Etoposide <br />Position: 790;798 <br />log2FC: -0.05 <br />FDR: 0.83052006 <br />Sequence window: Y(0.195)S(0.805)PKT(1)PPR","Treatment: Etoposide <br />Position: 881;889;897;896;896 <br />log2FC: -0.97 <br />FDR: 0.00031259 <br />Sequence window: PAANVT(1)PTK","Treatment: Formaldehyd <br />Position: 1001;1009;1017;1992;1016 <br />log2FC: -0.61 <br />FDR: 2.6753e-06 <br />Sequence window: ANT(0.879)S(0.121)GDFEK","Treatment: Formaldehyd <br />Position: 1002;1010;1018;1993;1017 <br />log2FC: -0.69 <br />FDR: 1.0665e-07 <br />Sequence window: ANT(0.083)S(0.917)GDFEK","Treatment: Formaldehyd <br />Position: 1162;1170;1178;2153;1177 <br />log2FC: -0.48 <br />FDR: 0.00600371 <br />Sequence window: LLLDIPLQT(1)PHK","Treatment: Formaldehyd <br />Position: 119;127;128;128;128 <br />log2FC: 0.09 <br />FDR: 0.69224069 <br />Sequence window: LFPGS(1)PAIYK","Treatment: Formaldehyd <br />Position: 1302;1310;1318;2293 <br />log2FC: -0.04 <br />FDR: 0.83657007 <br />Sequence window: LNQSGTSVGT(1)DEESDVTQEEER","Treatment: Formaldehyd <br />Position: 1306;1314;1322;2297 <br />log2FC: -0.03 <br />FDR: 0.94433353 <br />Sequence window: LNQSGTSVGTDEES(0.999)DVT(0.001)QEEER","Treatment: Formaldehyd <br />Position: 1459;1467;1475;2450;1474 <br />log2FC: -0.2 <br />FDR: 0.02585465 <br />Sequence window: DSLIT(1)PHVSR","Treatment: Formaldehyd <br />Position: 1463;1471;1479;2454;1478 <br />log2FC: -0.2 <br />FDR: 0.02585465 <br />Sequence window: DS(0.111)LIT(0.889)PHVS(1)R","Treatment: Formaldehyd <br />Position: 1465;1473;1481;2456;1480 <br />log2FC: 0.11 <br />FDR: 0.40860177 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK","Treatment: Formaldehyd <br />Position: 1466;1474;1482;2457;1481 <br />log2FC: 0.05 <br />FDR: 0.63543825 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK","Treatment: Formaldehyd <br />Position: 1467;1475;1483;2458;1482 <br />log2FC: -0.13 <br />FDR: 0.09865768 <br />Sequence window: S(0.423)S(0.58)T(0.989)PRES(0.007)PCGK","Treatment: Formaldehyd <br />Position: 1471;1479;1487;2462;1486 <br />log2FC: -0.26 <br />FDR: 0.00200265 <br />Sequence window: S(0.068)S(0.088)T(0.845)PRES(1)PCGK","Treatment: Formaldehyd <br />Position: 1519;1527;1535;2510;1534 <br />log2FC: -0.37 <br />FDR: 0.00041647 <br />Sequence window: AVVS(1)PPK","Treatment: Formaldehyd <br />Position: 779;787;789;788 <br />log2FC: -0.23 <br />FDR: 0.00281694 <br />Sequence window: YS(0.001)LS(0.998)PS(0.001)K","Treatment: Formaldehyd <br />Position: 787;795;797;796 <br />log2FC: -0.22 <br />FDR: 0.25106155 <br />Sequence window: S(0.005)Y(0.001)KY(0.013)S(0.981)PK","Treatment: Formaldehyd <br />Position: 790;798 <br />log2FC: -0.22 <br />FDR: 0.25106155 <br />Sequence window: Y(0.195)S(0.805)PKT(1)PPR","Treatment: Formaldehyd <br />Position: 881;889;897;896;896 <br />log2FC: -0.92 <br />FDR: 0.00180434 <br />Sequence window: PAANVT(1)PTK","Treatment: Gemcitabine <br />Position: 1001;1009;1017;1992;1016 <br />log2FC: -0.15 <br />FDR: 0.36078325 <br />Sequence window: ANT(0.879)S(0.121)GDFEK","Treatment: Gemcitabine <br />Position: 1002;1010;1018;1993;1017 <br />log2FC: -0.24 <br />FDR: 0.07240826 <br />Sequence window: ANT(0.083)S(0.917)GDFEK","Treatment: Gemcitabine <br />Position: 1162;1170;1178;2153;1177 <br />log2FC: -0.98 <br />FDR: 2.1382e-06 <br />Sequence window: LLLDIPLQT(1)PHK","Treatment: Gemcitabine <br />Position: 119;127;128;128;128 <br />log2FC: -0.37 <br />FDR: 0.08291560 <br />Sequence window: LFPGS(1)PAIYK","Treatment: Gemcitabine <br />Position: 1302;1310;1318;2293 <br />log2FC: 0.22 <br />FDR: 0.34341521 <br />Sequence window: LNQSGTSVGT(1)DEESDVTQEEER","Treatment: Gemcitabine <br />Position: 1306;1314;1322;2297 <br />log2FC: 0.1 <br />FDR: 0.82188500 <br />Sequence window: LNQSGTSVGTDEES(0.999)DVT(0.001)QEEER","Treatment: Gemcitabine <br />Position: 1459;1467;1475;2450;1474 <br />log2FC: -0.27 <br />FDR: 0.00663785 <br />Sequence window: DSLIT(1)PHVSR","Treatment: Gemcitabine <br />Position: 1463;1471;1479;2454;1478 <br />log2FC: -0.27 <br />FDR: 0.00663785 <br />Sequence window: DS(0.111)LIT(0.889)PHVS(1)R","Treatment: Gemcitabine <br />Position: 1465;1473;1481;2456;1480 <br />log2FC: 0.11 <br />FDR: 0.54911077 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK","Treatment: Gemcitabine <br />Position: 1466;1474;1482;2457;1481 <br />log2FC: 0.03 <br />FDR: 0.87489687 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK","Treatment: Gemcitabine <br />Position: 1467;1475;1483;2458;1482 <br />log2FC: -0.09 <br />FDR: 0.40278959 <br />Sequence window: S(0.423)S(0.58)T(0.989)PRES(0.007)PCGK","Treatment: Gemcitabine <br />Position: 1471;1479;1487;2462;1486 <br />log2FC: -0.21 <br />FDR: 0.03090646 <br />Sequence window: S(0.068)S(0.088)T(0.845)PRES(1)PCGK","Treatment: Gemcitabine <br />Position: 1519;1527;1535;2510;1534 <br />log2FC: -0.06 <br />FDR: 0.77168088 <br />Sequence window: AVVS(1)PPK","Treatment: Gemcitabine <br />Position: 779;787;789;788 <br />log2FC: -0.16 <br />FDR: 0.08580882 <br />Sequence window: YS(0.001)LS(0.998)PS(0.001)K","Treatment: Gemcitabine <br />Position: 787;795;797;796 <br />log2FC: 0.07 <br />FDR: 0.87297836 <br />Sequence window: S(0.005)Y(0.001)KY(0.013)S(0.981)PK","Treatment: Gemcitabine <br />Position: 790;798 <br />log2FC: -0.04 <br />FDR: 0.92605707 <br />Sequence window: Y(0.195)S(0.805)PKT(1)PPR","Treatment: Gemcitabine <br />Position: 881;889;897;896;896 <br />log2FC: -0.27 <br />FDR: 0.55042797 <br />Sequence window: PAANVT(1)PTK","Treatment: Hydrogen peroxide <br />Position: 1001;1009;1017;1992;1016 <br />log2FC: -0.4 <br />FDR: 0.00033551 <br />Sequence window: ANT(0.879)S(0.121)GDFEK","Treatment: Hydrogen peroxide <br />Position: 1002;1010;1018;1993;1017 <br />log2FC: -0.44 <br />FDR: 4.6507e-05 <br />Sequence window: ANT(0.083)S(0.917)GDFEK","Treatment: Hydrogen peroxide <br />Position: 1162;1170;1178;2153;1177 <br />log2FC: -0.36 <br />FDR: 0.02529817 <br />Sequence window: LLLDIPLQT(1)PHK","Treatment: Hydrogen peroxide <br />Position: 119;127;128;128;128 <br />log2FC: -0.44 <br />FDR: 0.00276876 <br />Sequence window: LFPGS(1)PAIYK","Treatment: Hydrogen peroxide <br />Position: 1302;1310;1318;2293 <br />log2FC: 0.13 <br />FDR: 0.44839213 <br />Sequence window: LNQSGTSVGT(1)DEESDVTQEEER","Treatment: Hydrogen peroxide <br />Position: 1306;1314;1322;2297 <br />log2FC: 0.12 <br />FDR: 0.57438406 <br />Sequence window: LNQSGTSVGTDEES(0.999)DVT(0.001)QEEER","Treatment: Hydrogen peroxide <br />Position: 1459;1467;1475;2450;1474 <br />log2FC: 0.08 <br />FDR: 0.35706843 <br />Sequence window: DSLIT(1)PHVSR","Treatment: Hydrogen peroxide <br />Position: 1463;1471;1479;2454;1478 <br />log2FC: -0.12 <br />FDR: 0.23670233 <br />Sequence window: DS(0.111)LIT(0.889)PHVS(1)R","Treatment: Hydrogen peroxide <br />Position: 1465;1473;1481;2456;1480 <br />log2FC: -0.09 <br />FDR: 0.43140442 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK","Treatment: Hydrogen peroxide <br />Position: 1466;1474;1482;2457;1481 <br />log2FC: -0.16 <br />FDR: 0.04725011 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK","Treatment: Hydrogen peroxide <br />Position: 1467;1475;1483;2458;1482 <br />log2FC: -0.13 <br />FDR: 0.07266324 <br />Sequence window: S(0.423)S(0.58)T(0.989)PRES(0.007)PCGK","Treatment: Hydrogen peroxide <br />Position: 1471;1479;1487;2462;1486 <br />log2FC: -0.11 <br />FDR: 0.19074950 <br />Sequence window: S(0.068)S(0.088)T(0.845)PRES(1)PCGK","Treatment: Hydrogen peroxide <br />Position: 1519;1527;1535;2510;1534 <br />log2FC: -0.44 <br />FDR: 2.2319e-05 <br />Sequence window: AVVS(1)PPK","Treatment: Hydrogen peroxide <br />Position: 779;787;789;788 <br />log2FC: -0.28 <br />FDR: 0.00022745 <br />Sequence window: YS(0.001)LS(0.998)PS(0.001)K","Treatment: Hydrogen peroxide <br />Position: 787;795;797;796 <br />log2FC: -0.3 <br />FDR: 0.06656875 <br />Sequence window: S(0.005)Y(0.001)KY(0.013)S(0.981)PK","Treatment: Hydrogen peroxide <br />Position: 790;798 <br />log2FC: -0.3 <br />FDR: 0.06656875 <br />Sequence window: Y(0.195)S(0.805)PKT(1)PPR","Treatment: Hydrogen peroxide <br />Position: 881;889;897;896;896 <br />log2FC: -0.62 <br />FDR: 0.01057408 <br />Sequence window: PAANVT(1)PTK","Treatment: Hydroxyurea <br />Position: 1001;1009;1017;1992;1016 <br />log2FC: 0.02 <br />FDR: 0.94130296 <br />Sequence window: ANT(0.879)S(0.121)GDFEK","Treatment: Hydroxyurea <br />Position: 1002;1010;1018;1993;1017 <br />log2FC: -0.04 <br />FDR: 0.80943209 <br />Sequence window: ANT(0.083)S(0.917)GDFEK","Treatment: Hydroxyurea <br />Position: 1162;1170;1178;2153;1177 <br />log2FC: -0.21 <br />FDR: 0.31751913 <br />Sequence window: LLLDIPLQT(1)PHK","Treatment: Hydroxyurea <br />Position: 119;127;128;128;128 <br />log2FC: -0.16 <br />FDR: 0.41434535 <br />Sequence window: LFPGS(1)PAIYK","Treatment: Hydroxyurea <br />Position: 1302;1310;1318;2293 <br />log2FC: 0.14 <br />FDR: 0.43818757 <br />Sequence window: LNQSGTSVGT(1)DEESDVTQEEER","Treatment: Hydroxyurea <br />Position: 1306;1314;1322;2297 <br />log2FC: -0.22 <br />FDR: 0.38796141 <br />Sequence window: LNQSGTSVGTDEES(0.999)DVT(0.001)QEEER","Treatment: Hydroxyurea <br />Position: 1459;1467;1475;2450;1474 <br />log2FC: -0.45 <br />FDR: 0.06506915 <br />Sequence window: DSLIT(1)PHVSR","Treatment: Hydroxyurea <br />Position: 1463;1471;1479;2454;1478 <br />log2FC: -0.13 <br />FDR: 0.28761324 <br />Sequence window: DS(0.111)LIT(0.889)PHVS(1)R","Treatment: Hydroxyurea <br />Position: 1465;1473;1481;2456;1480 <br />log2FC: 0.05 <br />FDR: 0.73405013 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK","Treatment: Hydroxyurea <br />Position: 1466;1474;1482;2457;1481 <br />log2FC: 0.01 <br />FDR: 0.93704315 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK","Treatment: Hydroxyurea <br />Position: 1467;1475;1483;2458;1482 <br />log2FC: -0.04 <br />FDR: 0.67671748 <br />Sequence window: S(0.423)S(0.58)T(0.989)PRES(0.007)PCGK","Treatment: Hydroxyurea <br />Position: 1471;1479;1487;2462;1486 <br />log2FC: -0.06 <br />FDR: 0.61714305 <br />Sequence window: S(0.068)S(0.088)T(0.845)PRES(1)PCGK","Treatment: Hydroxyurea <br />Position: 1519;1527;1535;2510;1534 <br />log2FC: 0.14 <br />FDR: 0.27066529 <br />Sequence window: AVVS(1)PPK","Treatment: Hydroxyurea <br />Position: 779;787;789;788 <br />log2FC: -0.03 <br />FDR: 0.83323068 <br />Sequence window: YS(0.001)LS(0.998)PS(0.001)K","Treatment: Hydroxyurea <br />Position: 787;795;797;796 <br />log2FC: 0.26 <br />FDR: 0.22704498 <br />Sequence window: S(0.005)Y(0.001)KY(0.013)S(0.981)PK","Treatment: Hydroxyurea <br />Position: 790;798 <br />log2FC: 0.26 <br />FDR: 0.22704498 <br />Sequence window: Y(0.195)S(0.805)PKT(1)PPR","Treatment: Hydroxyurea <br />Position: 881;889;897;896;896 <br />log2FC: -0.29 <br />FDR: 0.36085962 <br />Sequence window: PAANVT(1)PTK","Treatment: Methyl methanesulfonate <br />Position: 1001;1009;1017;1992;1016 <br />log2FC: -0.59 <br />FDR: 1.9843e-06 <br />Sequence window: ANT(0.879)S(0.121)GDFEK","Treatment: Methyl methanesulfonate <br />Position: 1002;1010;1018;1993;1017 <br />log2FC: -0.56 <br />FDR: 1.2673e-06 <br />Sequence window: ANT(0.083)S(0.917)GDFEK","Treatment: Methyl methanesulfonate <br />Position: 1162;1170;1178;2153;1177 <br />log2FC: -1.25 <br />FDR: 3.6571e-09 <br />Sequence window: LLLDIPLQT(1)PHK","Treatment: Methyl methanesulfonate <br />Position: 119;127;128;128;128 <br />log2FC: -0.11 <br />FDR: 0.57465801 <br />Sequence window: LFPGS(1)PAIYK","Treatment: Methyl methanesulfonate <br />Position: 1302;1310;1318;2293 <br />log2FC: 0.11 <br />FDR: 0.54587947 <br />Sequence window: LNQSGTSVGT(1)DEESDVTQEEER","Treatment: Methyl methanesulfonate <br />Position: 1306;1314;1322;2297 <br />log2FC: -0.32 <br />FDR: 0.15073287 <br />Sequence window: LNQSGTSVGTDEES(0.999)DVT(0.001)QEEER","Treatment: Methyl methanesulfonate <br />Position: 1459;1467;1475;2450;1474 <br />log2FC: -0.22 <br />FDR: 0.00823067 <br />Sequence window: DSLIT(1)PHVSR","Treatment: Methyl methanesulfonate <br />Position: 1463;1471;1479;2454;1478 <br />log2FC: -0.22 <br />FDR: 0.00823067 <br />Sequence window: DS(0.111)LIT(0.889)PHVS(1)R","Treatment: Methyl methanesulfonate <br />Position: 1465;1473;1481;2456;1480 <br />log2FC: 0 <br />FDR: 0.99705403 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK","Treatment: Methyl methanesulfonate <br />Position: 1466;1474;1482;2457;1481 <br />log2FC: -0.04 <br />FDR: 0.67012717 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK","Treatment: Methyl methanesulfonate <br />Position: 1467;1475;1483;2458;1482 <br />log2FC: -0.21 <br />FDR: 0.00368295 <br />Sequence window: S(0.423)S(0.58)T(0.989)PRES(0.007)PCGK","Treatment: Methyl methanesulfonate <br />Position: 1471;1479;1487;2462;1486 <br />log2FC: -0.31 <br />FDR: 0.00016176 <br />Sequence window: S(0.068)S(0.088)T(0.845)PRES(1)PCGK","Treatment: Methyl methanesulfonate <br />Position: 1519;1527;1535;2510;1534 <br />log2FC: -0.38 <br />FDR: 0.00019304 <br />Sequence window: AVVS(1)PPK","Treatment: Methyl methanesulfonate <br />Position: 779;787;789;788 <br />log2FC: -0.3 <br />FDR: 0.00011334 <br />Sequence window: YS(0.001)LS(0.998)PS(0.001)K","Treatment: Methyl methanesulfonate <br />Position: 787;795;797;796 <br />log2FC: -0.09 <br />FDR: 0.66410892 <br />Sequence window: S(0.005)Y(0.001)KY(0.013)S(0.981)PK","Treatment: Methyl methanesulfonate <br />Position: 790;798 <br />log2FC: -0.09 <br />FDR: 0.66410892 <br />Sequence window: Y(0.195)S(0.805)PKT(1)PPR","Treatment: Methyl methanesulfonate <br />Position: 881;889;897;896;896 <br />log2FC: -0.8 <br />FDR: 0.00444042 <br />Sequence window: PAANVT(1)PTK","Treatment: Sodium Arsenite <br />Position: 1001;1009;1017;1992;1016 <br />log2FC: -0.37 <br />FDR: 0.00055589 <br />Sequence window: ANT(0.879)S(0.121)GDFEK","Treatment: Sodium Arsenite <br />Position: 1002;1010;1018;1993;1017 <br />log2FC: -0.4 <br />FDR: 8.6683e-05 <br />Sequence window: ANT(0.083)S(0.917)GDFEK","Treatment: Sodium Arsenite <br />Position: 1162;1170;1178;2153;1177 <br />log2FC: 0.49 <br />FDR: 0.00177481 <br />Sequence window: LLLDIPLQT(1)PHK","Treatment: Sodium Arsenite <br />Position: 119;127;128;128;128 <br />log2FC: 0.23 <br />FDR: 0.13463902 <br />Sequence window: LFPGS(1)PAIYK","Treatment: Sodium Arsenite <br />Position: 1302;1310;1318;2293 <br />log2FC: -0.25 <br />FDR: 0.09229779 <br />Sequence window: LNQSGTSVGT(1)DEESDVTQEEER","Treatment: Sodium Arsenite <br />Position: 1306;1314;1322;2297 <br />log2FC: 0.04 <br />FDR: 0.83672185 <br />Sequence window: LNQSGTSVGTDEES(0.999)DVT(0.001)QEEER","Treatment: Sodium Arsenite <br />Position: 1459;1467;1475;2450;1474 <br />log2FC: -0.08 <br />FDR: 0.35136586 <br />Sequence window: DSLIT(1)PHVSR","Treatment: Sodium Arsenite <br />Position: 1463;1471;1479;2454;1478 <br />log2FC: -0.08 <br />FDR: 0.35136586 <br />Sequence window: DS(0.111)LIT(0.889)PHVS(1)R","Treatment: Sodium Arsenite <br />Position: 1465;1473;1481;2456;1480 <br />log2FC: -0.02 <br />FDR: 0.83489653 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK","Treatment: Sodium Arsenite <br />Position: 1466;1474;1482;2457;1481 <br />log2FC: -0.16 <br />FDR: 0.03625927 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK","Treatment: Sodium Arsenite <br />Position: 1467;1475;1483;2458;1482 <br />log2FC: -0.19 <br />FDR: 0.00547774 <br />Sequence window: S(0.423)S(0.58)T(0.989)PRES(0.007)PCGK","Treatment: Sodium Arsenite <br />Position: 1471;1479;1487;2462;1486 <br />log2FC: -0.2 <br />FDR: 0.00705884 <br />Sequence window: S(0.068)S(0.088)T(0.845)PRES(1)PCGK","Treatment: Sodium Arsenite <br />Position: 1519;1527;1535;2510;1534 <br />log2FC: -0.52 <br />FDR: 7.3287e-07 <br />Sequence window: AVVS(1)PPK","Treatment: Sodium Arsenite <br />Position: 779;787;789;788 <br />log2FC: -0.59 <br />FDR: 2.3139e-10 <br />Sequence window: YS(0.001)LS(0.998)PS(0.001)K","Treatment: Sodium Arsenite <br />Position: 787;795;797;796 <br />log2FC: -0.31 <br />FDR: 0.04590426 <br />Sequence window: S(0.005)Y(0.001)KY(0.013)S(0.981)PK","Treatment: Sodium Arsenite <br />Position: 790;798 <br />log2FC: -0.31 <br />FDR: 0.04590426 <br />Sequence window: Y(0.195)S(0.805)PKT(1)PPR","Treatment: Sodium Arsenite <br />Position: 881;889;897;896;896 <br />log2FC: 0.21 <br />FDR: 0.43143636 <br />Sequence window: PAANVT(1)PTK","Treatment: UV-C <br />Position: 1001;1009;1017;1992;1016 <br />log2FC: 0.08 <br />FDR: 0.76432319 <br />Sequence window: ANT(0.879)S(0.121)GDFEK","Treatment: UV-C <br />Position: 1002;1010;1018;1993;1017 <br />log2FC: 0.14 <br />FDR: 0.46016768 <br />Sequence window: ANT(0.083)S(0.917)GDFEK","Treatment: UV-C <br />Position: 1162;1170;1178;2153;1177 <br />log2FC: -0.04 <br />FDR: 0.95385470 <br />Sequence window: LLLDIPLQT(1)PHK","Treatment: UV-C <br />Position: 119;127;128;128;128 <br />log2FC: -0.12 <br />FDR: 0.72588657 <br />Sequence window: LFPGS(1)PAIYK","Treatment: UV-C <br />Position: 1302;1310;1318;2293 <br />log2FC: 0.15 <br />FDR: 0.65604967 <br />Sequence window: LNQSGTSVGT(1)DEESDVTQEEER","Treatment: UV-C <br />Position: 1306;1314;1322;2297 <br />log2FC: 0.23 <br />FDR: 0.51554800 <br />Sequence window: LNQSGTSVGTDEES(0.999)DVT(0.001)QEEER","Treatment: UV-C <br />Position: 1459;1467;1475;2450;1474 <br />log2FC: 0.11 <br />FDR: 0.84149157 <br />Sequence window: DSLIT(1)PHVSR","Treatment: UV-C <br />Position: 1463;1471;1479;2454;1478 <br />log2FC: 0.02 <br />FDR: 0.95035158 <br />Sequence window: DS(0.111)LIT(0.889)PHVS(1)R","Treatment: UV-C <br />Position: 1465;1473;1481;2456;1480 <br />log2FC: 0.13 <br />FDR: 0.51889540 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK","Treatment: UV-C <br />Position: 1466;1474;1482;2457;1481 <br />log2FC: 0.01 <br />FDR: 0.97697434 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK","Treatment: UV-C <br />Position: 1467;1475;1483;2458;1482 <br />log2FC: -0.03 <br />FDR: 0.89389046 <br />Sequence window: S(0.423)S(0.58)T(0.989)PRES(0.007)PCGK","Treatment: UV-C <br />Position: 1471;1479;1487;2462;1486 <br />log2FC: -0.01 <br />FDR: 0.96511681 <br />Sequence window: S(0.068)S(0.088)T(0.845)PRES(1)PCGK","Treatment: UV-C <br />Position: 1519;1527;1535;2510;1534 <br />log2FC: -0.1 <br />FDR: 0.60466135 <br />Sequence window: AVVS(1)PPK","Treatment: UV-C <br />Position: 779;787;789;788 <br />log2FC: -0.14 <br />FDR: 0.17603090 <br />Sequence window: YS(0.001)LS(0.998)PS(0.001)K","Treatment: UV-C <br />Position: 787;795;797;796 <br />log2FC: -0.08 <br />FDR: 0.86173216 <br />Sequence window: S(0.005)Y(0.001)KY(0.013)S(0.981)PK","Treatment: UV-C <br />Position: 790;798 <br />log2FC: -0.08 <br />FDR: 0.86173216 <br />Sequence window: Y(0.195)S(0.805)PKT(1)PPR","Treatment: UV-C <br />Position: 881;889;897;896;896 <br />log2FC: -0.38 <br />FDR: 0.32308303 <br />Sequence window: PAANVT(1)PTK","Treatment: X-ray <br />Position: 1001;1009;1017;1992;1016 <br />log2FC: -0.53 <br />FDR: 2.5165e-05 <br />Sequence window: ANT(0.879)S(0.121)GDFEK","Treatment: X-ray <br />Position: 1002;1010;1018;1993;1017 <br />log2FC: -0.57 <br />FDR: 2.8001e-06 <br />Sequence window: ANT(0.083)S(0.917)GDFEK","Treatment: X-ray <br />Position: 1162;1170;1178;2153;1177 <br />log2FC: -1.38 <br />FDR: 1.1516e-09 <br />Sequence window: LLLDIPLQT(1)PHK","Treatment: X-ray <br />Position: 119;127;128;128;128 <br />log2FC: -0.45 <br />FDR: 0.01206203 <br />Sequence window: LFPGS(1)PAIYK","Treatment: X-ray <br />Position: 1302;1310;1318;2293 <br />log2FC: 0.03 <br />FDR: 0.89374503 <br />Sequence window: LNQSGTSVGT(1)DEESDVTQEEER","Treatment: X-ray <br />Position: 1306;1314;1322;2297 <br />log2FC: -0.08 <br />FDR: 0.76375432 <br />Sequence window: LNQSGTSVGTDEES(0.999)DVT(0.001)QEEER","Treatment: X-ray <br />Position: 1459;1467;1475;2450;1474 <br />log2FC: -0.3 <br />FDR: 0.00113759 <br />Sequence window: DSLIT(1)PHVSR","Treatment: X-ray <br />Position: 1463;1471;1479;2454;1478 <br />log2FC: -0.3 <br />FDR: 0.00113759 <br />Sequence window: DS(0.111)LIT(0.889)PHVS(1)R","Treatment: X-ray <br />Position: 1465;1473;1481;2456;1480 <br />log2FC: 0.04 <br />FDR: 0.75655956 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK","Treatment: X-ray <br />Position: 1466;1474;1482;2457;1481 <br />log2FC: 0.07 <br />FDR: 0.45789458 <br />Sequence window: S(0.862)S(0.887)T(0.334)PRES(0.917)PCGK","Treatment: X-ray <br />Position: 1467;1475;1483;2458;1482 <br />log2FC: -0.17 <br />FDR: 0.02326217 <br />Sequence window: S(0.423)S(0.58)T(0.989)PRES(0.007)PCGK","Treatment: X-ray <br />Position: 1471;1479;1487;2462;1486 <br />log2FC: -0.43 <br />FDR: 4.8250e-06 <br />Sequence window: S(0.068)S(0.088)T(0.845)PRES(1)PCGK","Treatment: X-ray <br />Position: 1519;1527;1535;2510;1534 <br />log2FC: -0.26 <br />FDR: 0.01518006 <br />Sequence window: AVVS(1)PPK","Treatment: X-ray <br />Position: 779;787;789;788 <br />log2FC: -0.15 <br />FDR: 0.04975541 <br />Sequence window: YS(0.001)LS(0.998)PS(0.001)K","Treatment: X-ray <br />Position: 787;795;797;796 <br />log2FC: 0.06 <br />FDR: 0.77224899 <br />Sequence window: S(0.005)Y(0.001)KY(0.013)S(0.981)PK","Treatment: X-ray <br />Position: 790;798 <br />log2FC: 0.06 <br />FDR: 0.77224899 <br />Sequence window: Y(0.195)S(0.805)PKT(1)PPR","Treatment: X-ray <br />Position: 881;889;897;896;896 <br />log2FC: -0.28 <br />FDR: 0.36005863 <br />Sequence window: PAANVT(1)PTK"],"textfont":{"size":17.1421753925017,"color":"rgba(0,0,0,1)"},"type":"scatter","mode":"text","hoveron":"points","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[1],"y":[1],"name":"99_7894f40d7d70fee64b97873f406ba777","type":"scatter","mode":"markers","opacity":0,"hoverinfo":"skip","showlegend":false,"marker":{"color":[0,1],"colorscale":[[0,"#DC3220"],[0.00334448160535112,"#DC3321"],[0.00668896321070235,"#DD3522"],[0.0100334448160535,"#DD3623"],[0.0133779264214047,"#DD3724"],[0.0167224080267558,"#DE3925"],[0.0200668896321071,"#DE3A26"],[0.0234113712374582,"#DF3B27"],[0.0267558528428094,"#DF3C28"],[0.0301003344481605,"#DF3E28"],[0.0334448160535117,"#E03F29"],[0.0367892976588629,"#E0402A"],[0.040133779264214,"#E0412B"],[0.0434782608695652,"#E1422C"],[0.0468227424749164,"#E1432D"],[0.0501672240802676,"#E1452E"],[0.0535117056856187,"#E2462F"],[0.0568561872909698,"#E24730"],[0.0602006688963211,"#E24831"],[0.0635451505016722,"#E34932"],[0.0668896321070234,"#E34A33"],[0.0702341137123745,"#E34B33"],[0.0735785953177258,"#E44C34"],[0.0769230769230769,"#E44D35"],[0.0802675585284281,"#E44E36"],[0.0836120401337793,"#E54F37"],[0.0869565217391304,"#E55038"],[0.0903010033444816,"#E55139"],[0.0936454849498327,"#E6523A"],[0.096989966555184,"#E6533B"],[0.100334448160535,"#E6543C"],[0.103678929765886,"#E7553D"],[0.107023411371237,"#E7563E"],[0.110367892976589,"#E7573E"],[0.11371237458194,"#E8583F"],[0.117056856187291,"#E85940"],[0.120401337792642,"#E85A41"],[0.123745819397993,"#E95B42"],[0.127090301003345,"#E95C43"],[0.130434782608696,"#E95D44"],[0.133779264214047,"#EA5E45"],[0.137123745819398,"#EA5F46"],[0.140468227424749,"#EA6047"],[0.1438127090301,"#EB6148"],[0.147157190635451,"#EB6248"],[0.150501672240803,"#EB6349"],[0.153846153846154,"#EB644A"],[0.157190635451505,"#EC654B"],[0.160535117056856,"#EC664C"],[0.163879598662207,"#EC674D"],[0.167224080267559,"#ED684E"],[0.17056856187291,"#ED694F"],[0.173913043478261,"#ED6A50"],[0.177257525083612,"#EE6B51"],[0.180602006688963,"#EE6B52"],[0.183946488294314,"#EE6C53"],[0.187290969899666,"#EE6D54"],[0.190635451505017,"#EF6E54"],[0.193979933110368,"#EF6F55"],[0.197324414715719,"#EF7056"],[0.20066889632107,"#EF7157"],[0.204013377926421,"#F07258"],[0.207357859531773,"#F07359"],[0.210702341137124,"#F0745A"],[0.214046822742475,"#F1745B"],[0.217391304347826,"#F1755C"],[0.220735785953177,"#F1765D"],[0.224080267558528,"#F1775E"],[0.22742474916388,"#F2785F"],[0.230769230769231,"#F27960"],[0.234113712374582,"#F27A61"],[0.237458193979933,"#F27B61"],[0.240802675585284,"#F37C62"],[0.244147157190635,"#F37C63"],[0.247491638795987,"#F37D64"],[0.250836120401338,"#F37E65"],[0.254180602006689,"#F47F66"],[0.25752508361204,"#F48067"],[0.260869565217391,"#F48168"],[0.264214046822742,"#F48269"],[0.267558528428094,"#F5836A"],[0.270903010033445,"#F5836B"],[0.274247491638796,"#F5846C"],[0.277591973244147,"#F5856D"],[0.280936454849498,"#F6866E"],[0.284280936454849,"#F6876F"],[0.287625418060201,"#F68870"],[0.290969899665552,"#F68971"],[0.294314381270903,"#F68A71"],[0.297658862876254,"#F78A72"],[0.301003344481605,"#F78B73"],[0.304347826086956,"#F78C74"],[0.307692307692308,"#F78D75"],[0.311036789297659,"#F88E76"],[0.31438127090301,"#F88F77"],[0.317725752508361,"#F89078"],[0.321070234113712,"#F89079"],[0.324414715719064,"#F8917A"],[0.327759197324415,"#F9927B"],[0.331103678929766,"#F9937C"],[0.334448160535117,"#F9947D"],[0.337792642140468,"#F9957E"],[0.341137123745819,"#F9967F"],[0.344481605351171,"#FA9680"],[0.347826086956522,"#FA9781"],[0.351170568561873,"#FA9882"],[0.354515050167224,"#FA9983"],[0.357859531772575,"#FA9A84"],[0.361204013377926,"#FB9B85"],[0.364548494983278,"#FB9C86"],[0.367892976588629,"#FB9C87"],[0.37123745819398,"#FB9D88"],[0.374581939799331,"#FB9E89"],[0.377926421404682,"#FB9F89"],[0.381270903010033,"#FCA08A"],[0.384615384615385,"#FCA18B"],[0.387959866220736,"#FCA18C"],[0.391304347826087,"#FCA28D"],[0.394648829431438,"#FCA38E"],[0.397993311036789,"#FCA48F"],[0.40133779264214,"#FDA590"],[0.404682274247492,"#FDA691"],[0.408026755852843,"#FDA692"],[0.411371237458194,"#FDA793"],[0.414715719063545,"#FDA894"],[0.418060200668896,"#FDA995"],[0.421404682274247,"#FDAA96"],[0.424749163879599,"#FEAB97"],[0.42809364548495,"#FEAC98"],[0.431438127090301,"#FEAC99"],[0.434782608695652,"#FEAD9A"],[0.438127090301003,"#FEAE9B"],[0.441471571906355,"#FEAF9C"],[0.444816053511706,"#FEB09D"],[0.448160535117057,"#FFB19E"],[0.451505016722408,"#FFB19F"],[0.454849498327759,"#FFB2A0"],[0.45819397993311,"#FFB3A1"],[0.461538461538462,"#FFB4A2"],[0.464882943143813,"#FFB5A3"],[0.468227424749164,"#FFB6A4"],[0.471571906354515,"#FFB6A5"],[0.474916387959866,"#FFB7A6"],[0.478260869565217,"#FFB8A7"],[0.481605351170569,"#FFB9A8"],[0.48494983277592,"#FFBAA9"],[0.488294314381271,"#FFBBAA"],[0.491638795986622,"#FFBBAB"],[0.494983277591973,"#FFBCAC"],[0.498327759197324,"#FFBDAD"],[0.501672240802676,"#FFBEAE"],[0.505016722408027,"#FFBFAF"],[0.508361204013378,"#FFC0B0"],[0.511705685618729,"#FFC0B1"],[0.51505016722408,"#FFC1B2"],[0.518394648829431,"#FFC2B3"],[0.521739130434783,"#FFC3B4"],[0.525083612040134,"#FFC4B5"],[0.528428093645485,"#FFC5B6"],[0.531772575250836,"#FFC5B7"],[0.535117056856187,"#FFC6B8"],[0.538461538461538,"#FFC7B9"],[0.54180602006689,"#FFC8BA"],[0.545150501672241,"#FFC9BB"],[0.548494983277592,"#FFCABC"],[0.551839464882943,"#FFCABD"],[0.555183946488294,"#FFCBBE"],[0.558528428093646,"#FFCCBF"],[0.561872909698997,"#FFCDC0"],[0.565217391304348,"#FFCEC1"],[0.568561872909699,"#FFCFC2"],[0.57190635451505,"#FFCFC3"],[0.575250836120401,"#FFD0C4"],[0.578595317725752,"#FFD1C5"],[0.581939799331104,"#FFD2C6"],[0.585284280936455,"#FFD3C8"],[0.588628762541806,"#FFD4C9"],[0.591973244147157,"#FFD4CA"],[0.595317725752508,"#FFD5CB"],[0.59866220735786,"#FFD6CC"],[0.602006688963211,"#FFD7CD"],[0.605351170568562,"#FFD8CE"],[0.608695652173913,"#FFD9CF"],[0.612040133779264,"#FFD9D0"],[0.615384615384615,"#FFDAD1"],[0.618729096989967,"#FFDBD2"],[0.622073578595318,"#FFDCD3"],[0.625418060200669,"#FFDDD4"],[0.62876254180602,"#FFDED5"],[0.632107023411371,"#FFDED6"],[0.635451505016722,"#FFDFD7"],[0.638795986622074,"#FFE0D8"],[0.642140468227425,"#FFE1D9"],[0.645484949832776,"#FFE2DA"],[0.648829431438127,"#FFE3DB"],[0.652173913043478,"#FFE3DC"],[0.655518394648829,"#FFE4DD"],[0.658862876254181,"#FFE5DE"],[0.662207357859532,"#FFE6DF"],[0.665551839464883,"#FFE7E0"],[0.668896321070234,"#FFE8E1"],[0.672240802675585,"#FFE9E3"],[0.675585284280936,"#FFE9E4"],[0.678929765886288,"#FFEAE5"],[0.682274247491639,"#FFEBE6"],[0.68561872909699,"#FFECE7"],[0.688963210702341,"#FFEDE8"],[0.692307692307692,"#FFEEE9"],[0.695652173913043,"#FFEEEA"],[0.698996655518395,"#FFEFEB"],[0.702341137123746,"#FFF0EC"],[0.705685618729097,"#FFF1ED"],[0.709030100334448,"#FFF2EE"],[0.712374581939799,"#FFF3EF"],[0.71571906354515,"#FFF3F0"],[0.719063545150502,"#FFF4F1"],[0.722408026755853,"#FFF5F2"],[0.725752508361204,"#FFF6F3"],[0.729096989966555,"#FFF7F4"],[0.732441471571906,"#FFF8F6"],[0.735785953177257,"#FFF8F7"],[0.739130434782609,"#FFF9F8"],[0.74247491638796,"#FFFAF9"],[0.745819397993311,"#FFFBFA"],[0.749163879598662,"#FFFCFB"],[0.752508361204013,"#FFFDFC"],[0.755852842809365,"#FFFDFD"],[0.759197324414716,"#FFFEFE"],[0.762541806020067,"#FFFFFF"],[0.765886287625418,"#FEFEFF"],[0.769230769230769,"#FDFDFE"],[0.77257525083612,"#FCFDFE"],[0.775919732441471,"#FBFCFE"],[0.779264214046823,"#FBFBFD"],[0.782608695652174,"#FAFAFD"],[0.785953177257525,"#F9F9FD"],[0.789297658862876,"#F8F9FC"],[0.792642140468227,"#F7F8FC"],[0.795986622073579,"#F6F7FC"],[0.79933110367893,"#F5F6FC"],[0.802675585284281,"#F4F5FB"],[0.806020066889632,"#F4F5FB"],[0.809364548494983,"#F3F4FB"],[0.812709030100334,"#F2F3FA"],[0.816053511705686,"#F1F2FA"],[0.819397993311037,"#F0F1FA"],[0.822742474916388,"#EFF1F9"],[0.826086956521739,"#EEF0F9"],[0.82943143812709,"#EEEFF9"],[0.832775919732441,"#EDEEF8"],[0.836120401337793,"#ECEEF8"],[0.839464882943144,"#EBEDF8"],[0.842809364548495,"#EAECF7"],[0.846153846153846,"#E9EBF7"],[0.849498327759197,"#E8EAF7"],[0.852842809364549,"#E7EAF6"],[0.8561872909699,"#E7E9F6"],[0.859531772575251,"#E6E8F6"],[0.862876254180602,"#E5E7F6"],[0.866220735785953,"#E4E6F5"],[0.869565217391304,"#E3E6F5"],[0.872909698996655,"#E2E5F5"],[0.876254180602007,"#E1E4F4"],[0.879598662207358,"#E0E3F4"],[0.882943143812709,"#E0E3F4"],[0.88628762541806,"#DFE2F3"],[0.889632107023411,"#DEE1F3"],[0.892976588628763,"#DDE0F3"],[0.896321070234114,"#DCDFF2"],[0.899665551839465,"#DBDFF2"],[0.903010033444816,"#DADEF2"],[0.906354515050167,"#DADDF1"],[0.909698996655518,"#D9DCF1"],[0.91304347826087,"#D8DCF1"],[0.916387959866221,"#D7DBF0"],[0.919732441471572,"#D6DAF0"],[0.923076923076923,"#D5D9F0"],[0.926421404682274,"#D4D9F0"],[0.929765886287625,"#D3D8EF"],[0.933110367892977,"#D3D7EF"],[0.936454849498328,"#D2D6EF"],[0.939799331103679,"#D1D5EE"],[0.94314381270903,"#D0D5EE"],[0.946488294314381,"#CFD4EE"],[0.949832775919732,"#CED3ED"],[0.953177257525084,"#CDD2ED"],[0.956521739130435,"#CCD2ED"],[0.959866220735786,"#CCD1EC"],[0.963210702341137,"#CBD0EC"],[0.966555183946488,"#CACFEC"],[0.969899665551839,"#C9CFEB"],[0.973244147157191,"#C8CEEB"],[0.976588628762542,"#C7CDEB"],[0.979933110367893,"#C6CCEA"],[0.983277591973244,"#C5CCEA"],[0.986622073578595,"#C5CBEA"],[0.989966555183946,"#C4CAE9"],[0.993311036789298,"#C3C9E9"],[0.996655518394649,"#C2C9E9"],[1,"#C1C8E8"]],"colorbar":{"bgcolor":null,"bordercolor":null,"borderwidth":0,"thickness":23.04,"title":"log2 FC","titlefont":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"tickmode":"array","ticktext":["-1.5","-1.0","-0.5","0.0"],"tickvals":[0.0339805825242719,0.276699029126214,0.519417475728155,0.762135922330097],"tickfont":{"color":"rgba(0,0,0,1)","family":"","size":11.689497716895},"ticklen":2,"len":0.5}},"xaxis":"x","yaxis":"y","frame":null}],"layout":{"margin":{"t":20.9987983657775,"r":7.30593607305936,"b":143.080990146599,"l":151.232876712329},"font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[0.4,11.6],"tickmode":"array","ticktext":["Aphidicolin","Camptothecin","Etoposide","Formaldehyd","Gemcitabine","Hydrogen peroxide","Hydroxyurea","Methyl methanesulfonate","Sodium Arsenite","UV-C","X-ray"],"tickvals":[1,2,3,4,5,6,7,8,9,10,11],"categoryorder":"array","categoryarray":["Aphidicolin","Camptothecin","Etoposide","Formaldehyd","Gemcitabine","Hydrogen peroxide","Hydroxyurea","Methyl methanesulfonate","Sodium Arsenite","UV-C","X-ray"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.65296803652968,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-90,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176,"zeroline":false,"anchor":"y","title":{"text":"","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[0.4,17.6],"tickmode":"array","ticktext":["1519;1527;1535;2510;1534","1471;1479;1487;2462;1486","1467;1475;1483;2458;1482","1466;1474;1482;2457;1481","1465;1473;1481;2456;1480","1463;1471;1479;2454;1478","1459;1467;1475;2450;1474","1306;1314;1322;2297","1302;1310;1318;2293","1162;1170;1178;2153;1177","1002;1010;1018;1993;1017","1001;1009;1017;1992;1016","881;889;897;896;896","790;798","787;795;797;796","779;787;789;788","119;127;128;128;128"],"tickvals":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17],"categoryorder":"array","categoryarray":["1519;1527;1535;2510;1534","1471;1479;1487;2462;1486","1467;1475;1483;2458;1482","1466;1474;1482;2457;1481","1465;1473;1481;2456;1480","1463;1471;1479;2454;1478","1459;1467;1475;2450;1474","1306;1314;1322;2297","1302;1310;1318;2293","1162;1170;1178;2153;1177","1002;1010;1018;1993;1017","1001;1009;1017;1992;1016","881;889;897;896;896","790;798","787;795;797;796","779;787;789;788","119;127;128;128;128"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.65296803652968,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176,"zeroline":false,"anchor":"x","title":{"text":"","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":null,"bordercolor":null,"borderwidth":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.689497716895},"title":{"text":"size","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displaylogo":false,"modeBarButtonsToRemove":["zoom2d","pan2d","select2d","lasso2d","hoverClosestCartesian","hoverCompareCartesian","zoomIn2d","zoomOut2d","autoScale2d","toggleSpikelines"]},"source":"A","attrs":{"2335a6a77b638":{"x":{},"y":{},"fill":{},"text":{},"type":"heatmap"},"2335a1d690f84":{"x":{},"y":{},"fill":{},"text":{},"label":{},"size":{}}},"cur_data":"2335a6a77b638","visdat":{"2335a6a77b638":["function (y) ","x"],"2335a1d690f84":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<!--radix_placeholder_article_footer-->
+<!--/radix_placeholder_article_footer-->
+</div>
+
+<div class="d-appendix">
+</div>
+
+
+<!--radix_placeholder_site_after_body-->
+<!--/radix_placeholder_site_after_body-->
+<!--radix_placeholder_appendices-->
+<div class="appendix-bottom"></div>
+<!--/radix_placeholder_appendices-->
+<!--radix_placeholder_navigation_after_body-->
+<div class="distill-site-nav distill-site-footer">
+<p>DDRBase - 2022</p>
+</div>
+<!--/radix_placeholder_navigation_after_body-->
+
+
+</body>
+
+</html>
