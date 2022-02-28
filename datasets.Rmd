@@ -1,7 +1,7 @@
 ---
 title: "Available Datasets"
 description: |
-  Phosphorylation data shown in this website can be found [here](https://github.com/belilab/DDRBase2/raw/main/data/Phospho_database.processed.txt.gz).
+  Phosphorylation data shown in this website can be found [here](https://github.com/belilab/DDRBase2/raw/master/data/Phospho_database.processed.txt.gz).
 site: distill::distill_website
 ---
 
